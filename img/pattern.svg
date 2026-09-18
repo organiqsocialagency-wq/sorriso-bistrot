@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340">
+  <g fill="none" stroke="#6B3E26" stroke-opacity="0.10" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- spiga -->
+    <g transform="translate(38 40) rotate(-12)">
+      <path d="M0 34V4" />
+      <path d="M0 8c-6-3-9-7-9-12 5 0 9 3 9 8zM0 8c6-3 9-7 9-12-5 0-9 3-9 8z" />
+      <path d="M0 18c-6-3-9-7-9-12 5 0 9 3 9 8zM0 18c6-3 9-7 9-12-5 0-9 3-9 8z" />
+      <path d="M0 28c-6-3-9-7-9-12 5 0 9 3 9 8zM0 28c6-3 9-7 9-12-5 0-9 3-9 8z" />
+    </g>
+    <!-- foglia -->
+    <g transform="translate(140 30)">
+      <path d="M0 26C0 10 11 0 26 0c0 16-10 26-26 26z" />
+      <path d="M22 4 4 22" />
+    </g>
+    <!-- pomodoro -->
+    <g transform="translate(258 44)">
+      <circle cx="12" cy="14" r="12" />
+      <path d="M12 2c-4-4-8-2-8-2s1 4 5 4M12 2c3-3 6-2 6-2s0 3-3 4" />
+    </g>
+    <!-- fungo -->
+    <g transform="translate(52 148)">
+      <path d="M0 12a13 13 0 0 1 26 0z" />
+      <path d="M9 12v10a4 4 0 0 0 8 0V12" />
+    </g>
+    <!-- spicchio di pizza -->
+    <g transform="translate(160 140)">
+      <path d="M14 0 0 28h28z" />
+      <circle cx="14" cy="14" r="1.6" />
+      <circle cx="9" cy="22" r="1.6" />
+      <circle cx="19" cy="22" r="1.6" />
+    </g>
+    <!-- oliva/ramo -->
+    <g transform="translate(268 156)">
+      <path d="M0 0c8 4 14 12 16 22" />
+      <ellipse cx="6" cy="7" rx="5" ry="3" transform="rotate(-30 6 7)" />
+      <ellipse cx="14" cy="17" rx="5" ry="3" transform="rotate(-30 14 17)" />
+    </g>
+    <!-- formaggio -->
+    <g transform="translate(40 254)">
+      <path d="M0 20 22 6l8 6v10H0z" />
+      <circle cx="10" cy="15" r="2" />
+      <circle cx="21" cy="16" r="1.6" />
+    </g>
+    <!-- peperoncino -->
+    <g transform="translate(150 258)">
+      <path d="M4 2c2 0 3 2 3 4 8 0 14 6 14 14 0 4-3 6-6 4C5 18 2 12 4 2z" />
+    </g>
+    <!-- bottiglia olio -->
+    <g transform="translate(258 250)">
+      <path d="M8 0h6v6l5 7v15a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V13l5-7z" />
+      <path d="M3 20h16" />
+    </g>
+  </g>
+</svg>
