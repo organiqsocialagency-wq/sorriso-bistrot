@@ -75,3 +75,7 @@
 .order-options .button{width:100%;min-height:56px;justify-content:center;gap:12px;font-size:14px;padding:14px 18px;text-align:center}
 .order-options .delivery-icon{width:26px;height:26px;object-fit:contain;flex-shrink:0}
 .order-options .button:not(.outline) .delivery-icon{filter:brightness(0) invert(1)}
+
+.compare-cross{display:inline-flex;align-items:center;justify-content:center;width:22px;height:24px;flex-shrink:0;color:var(--red);font-size:26px;line-height:1}
+.compare-before .compare-list{gap:28px}
+.compare-card-top{min-height:64px;margin-bottom:12px}
