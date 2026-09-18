@@ -50,3 +50,12 @@
 .reviews-track{padding-right:22px}
 @media(min-width:901px) and (prefers-reduced-motion:no-preference){#impasti.scroll-story .dough{background:transparent}#impasti.scroll-story .dough-picture .placeholder{aspect-ratio:1.85;height:310px}#impasti.scroll-story .dough-picture .placeholder span{max-width:100%;white-space:nowrap}}
 @media(prefers-reduced-motion:reduce){.reviews-track>[aria-hidden=true]{display:none}}
+
+/* Two-column comparison follows the reference's open left / featured right layout. */
+.comparison-cards{display:grid;grid-template-columns:1fr 1fr;gap:40px;border:0;border-radius:0;overflow:visible;position:relative;margin-top:54px}
+.compare-before{padding:32px 30px 32px 0}.compare-after{padding:32px;background:var(--beige);border:1px solid var(--line);border-radius:20px;box-shadow:0 20px 45px -35px #6b3e2670}
+.compare-tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:1.2px;padding:6px 13px;border-radius:30px;background:#ece4db;color:var(--muted);margin-bottom:24px}
+.compare-after .compare-tag{background:var(--brown);color:var(--cream)}.compare-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}.compare-card-top img{object-fit:contain;width:64px;height:64px;margin-top:-8px}
+.comparison-cards h3{font-size:27px;line-height:1.3;margin-bottom:28px;letter-spacing:-.5px}.compare-list{display:flex;flex-direction:column;gap:24px;margin:0}.compare-list li{display:flex;align-items:flex-start;gap:14px}.compare-list strong{display:block;font-size:14px;color:var(--brown);margin-bottom:4px}.compare-list p{font-size:13px;line-height:1.7;margin:0}.compare-question{font-size:16px;color:var(--muted);width:22px;flex-shrink:0;text-align:center}.compare-list svg{width:22px;height:22px;color:var(--green);margin-top:3px}.compare-after .text-link{margin-top:24px}
+.location-map{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--beige)}.location-map iframe{display:block;width:100%;height:400px;border:0}.location-map>a{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:18px 22px;font-size:12px;font-weight:600;color:var(--brown)}.location-map>a span{font-size:10px;font-weight:400}
+@media(max-width:700px){.comparison-cards{grid-template-columns:1fr;gap:24px;margin-top:30px}.compare-before{padding:10px 8px}.compare-after{padding:26px}.comparison-cards h3{font-size:25px}.location-map iframe{height:320px}.location-map>a{flex-wrap:wrap;padding:16px}}
