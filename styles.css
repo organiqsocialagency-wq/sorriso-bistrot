@@ -100,3 +100,5 @@
 .compare-before>.compare-tag{min-height:36px;display:inline-flex;align-items:center}
 .faq p a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:700px){.hero .awaiting-video .video-frame{height:270px}.hero .awaiting-video .video-caption h2{font-size:19px}.hero .awaiting-video .video-top{font-size:8px}.hero-notes{flex-wrap:wrap}.compare-before>.compare-list{margin-top:24px}}
+
+.review-stars{color:#a8613a;font-size:22px;line-height:1.2;letter-spacing:3px;margin-bottom:14px}
