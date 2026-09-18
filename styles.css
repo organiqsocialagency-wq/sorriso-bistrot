@@ -87,3 +87,16 @@
 .compare-before>.compare-list{margin-top:40px}
 .compare-card-top{height:64px;min-height:64px;margin-bottom:12px;align-items:flex-start}
 @media(max-width:700px){.compare-before>.compare-list{margin-top:24px}.comparison-cards .compare-list li{min-height:0}}
+
+/* Editorial revision: compact media until the real videos are available. */
+.hero .hero-title-main{font-size:clamp(40px,6.3vw,80px);margin-top:0;margin-bottom:18px}
+.hero .awaiting-video{max-width:650px;margin-top:36px}
+.hero .awaiting-video .video-frame{aspect-ratio:auto;height:290px}
+.hero .awaiting-video .video-placeholder>svg{width:60px;height:60px;transform:translateY(-26px)}
+.hero .awaiting-video .video-placeholder>span{position:absolute;top:55px;font-size:8px}
+.hero .awaiting-video .video-caption{bottom:75px}
+.hero .awaiting-video .video-caption h2{font-size:23px}
+.compare-need{display:inline-flex;align-items:center;justify-content:center;width:22px;height:24px;flex-shrink:0;color:var(--muted);font-size:20px}
+.compare-before>.compare-tag{min-height:36px;display:inline-flex;align-items:center}
+.faq p a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){.hero .awaiting-video .video-frame{height:270px}.hero .awaiting-video .video-caption h2{font-size:19px}.hero .awaiting-video .video-top{font-size:8px}.hero-notes{flex-wrap:wrap}.compare-before>.compare-list{margin-top:24px}}
