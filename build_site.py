@@ -71,7 +71,9 @@ for social in socials:
     s+=f'</div><div class="social-track" id="social-track-{sid}" tabindex="0" aria-label="Video {name}">'
     for i in range(max(3,len(social['videos']))):
         video=social['videos'][i] if i<len(social['videos']) else None
-        if video:
+        if video and video.get('embed'):
+            s+=f'<article class="social-video"><div class="social-player"><div class="social-player-fallback" aria-hidden="true">TikTok<span>Se il video non si carica,<br>aprilo dal link qui sotto.</span></div><iframe src="{esc(video["embed"])}" title="{esc(video["title"])} — {name}" loading="lazy" allow="fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="social-video-copy"><h4>{esc(video["title"])}</h4><a class="text-link" href="{esc(video["url"])}" target="_blank" rel="noopener noreferrer">Guarda su {name} ↗</a></div></article>'
+        elif video:
             poster=f'<img src="{esc(video["poster"])}" alt="" loading="lazy" width="360" height="480">' if video.get('poster') else ico('play')
             s+=f'<a class="social-video" href="{esc(video["url"])}" target="_blank" rel="noopener noreferrer"><div class="social-poster">{poster}<span class="social-platform">{name}</span></div><div class="social-video-copy"><h4>{esc(video["title"])}</h4><span>Guarda su {name} ↗</span></div></a>'
         else:
