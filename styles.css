@@ -79,3 +79,11 @@
 .compare-cross{display:inline-flex;align-items:center;justify-content:center;width:22px;height:24px;flex-shrink:0;color:var(--red);font-size:26px;line-height:1}
 .compare-before .compare-list{gap:28px}
 .compare-card-top{min-height:64px;margin-bottom:12px}
+
+/* Matching rhythm for the five comparison pairs. */
+.comparison-cards .compare-list{gap:24px}
+.comparison-cards .compare-list li{min-height:48px;align-items:flex-start}
+.compare-before>.compare-tag{margin-bottom:0}
+.compare-before>.compare-list{margin-top:40px}
+.compare-card-top{height:64px;min-height:64px;margin-bottom:12px;align-items:flex-start}
+@media(max-width:700px){.compare-before>.compare-list{margin-top:24px}.comparison-cards .compare-list li{min-height:0}}
