@@ -67,3 +67,11 @@
   input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="button"]),textarea,[contenteditable="true"]{cursor:text}
   :disabled,[aria-disabled="true"]{cursor:not-allowed}
 }
+
+/* Full-width ordering actions anchored below the card copy. */
+.order-options article{display:flex;flex-direction:column;align-items:stretch}
+.order-options article>.button,.order-options article>.actions{margin-top:auto;width:100%}
+.order-options .actions{display:grid;grid-template-columns:1fr;gap:12px;justify-content:stretch}
+.order-options .button{width:100%;min-height:56px;justify-content:center;gap:12px;font-size:14px;padding:14px 18px;text-align:center}
+.order-options .delivery-icon{width:26px;height:26px;object-fit:contain;flex-shrink:0}
+.order-options .button:not(.outline) .delivery-icon{filter:brightness(0) invert(1)}
