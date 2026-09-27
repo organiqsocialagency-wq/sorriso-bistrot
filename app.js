@@ -66,16 +66,19 @@ if(search){
   catalog.style.setProperty('--menu-nav-top',`${height}px`);
   catalog.style.scrollMarginTop=`${height+12}px`;
  }
+ function scrollResults(){
+  const resultsTop=document.querySelector('#menu-results').getBoundingClientRect().top+scrollY;
+  window.scrollTo({top:resultsTop-catalog.offsetHeight-header.getBoundingClientRect().height-12,behavior:'instant'});
+ }
  chips.forEach(chip=>chip.addEventListener('click',()=>{
   category=chip.dataset.categoryFilter;
   const url=new URL(location.href);
   if(category==='tutte')url.searchParams.delete('categoria');else url.searchParams.set('categoria',category);
   if(url.href!==location.href)history.pushState(null,'',url);
   filter();revealCategory();
-  const resultsTop=document.querySelector('#menu-results').getBoundingClientRect().top+scrollY;
-  window.scrollTo({top:resultsTop-catalog.offsetHeight-header.getBoundingClientRect().height-12,behavior:'instant'});
+  scrollResults();
  }));
- search.addEventListener('input',filter);
+ search.addEventListener('input',()=>{filter();scrollResults()});
  addEventListener('popstate',()=>{category=fromURL();filter();revealCategory()});
  addEventListener('resize',()=>{updateOffset();revealCategory()});
  if('ResizeObserver' in window)new ResizeObserver(updateOffset).observe(header);

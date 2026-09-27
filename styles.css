@@ -172,6 +172,7 @@
 .category-list{display:flex;flex-wrap:wrap;gap:9px;padding:5px;margin:-5px}
 .category-chip{flex-shrink:0;display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:9px 15px;border:1px solid #c9b49f;border-radius:24px;background:var(--cream);color:var(--brown);font-size:12px;font-weight:600;line-height:1.4;white-space:nowrap;transition:background .2s,color .2s}
 .category-chip>span{display:grid;place-items:center;min-width:23px;height:23px;padding:0 5px;border-radius:50%;background:var(--beige);font-size:10px}
+.category-chip:focus-visible{outline-offset:2px}
 .category-chip:hover{border-color:var(--brown);background:#ecdecd}
 .category-chip[aria-pressed=true]{background:var(--brown);border-color:var(--brown);color:var(--cream)}
 .category-chip[aria-pressed=true]>span{background:#8a5b3e;color:var(--cream)}
