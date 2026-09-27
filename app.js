@@ -31,10 +31,55 @@ if(form){
  form.addEventListener('submit',e=>{e.preventDefault();validateDate();if(!form.reportValidity())return;const f=new FormData(form),isTake=f.get('servizio')==='asporto';const when=new Date(f.get('data')+'T12:00:00').toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long',year:'numeric'});let text=`Ciao Sorriso Bistrot! Vorrei richiedere ${isTake?'un ordine da asporto':'un tavolo'} a Via Sarnano.\nNome: ${f.get('nome').trim()}\nTelefono: ${f.get('telefono')}\nData: ${when}\nOrario: ${f.get('ora')}`;if(!isTake)text+=`\nPersone: ${f.get('persone')}`;if(f.get('note').trim())text+=`\n${isTake?'Ordine':'Note'}: ${f.get('note').trim()}`;text+='\nAttendo una vostra conferma. Grazie!';send.href='https://wa.me/393455834226?text='+encodeURIComponent(text);send.hidden=false;message.textContent=`Richiesta pronta: ${isTake?'asporto':'tavolo'}, ${when} alle ${f.get('ora')}. Apri WhatsApp per inviarla al locale. La richiesta è confermata solo dopo la risposta dello staff.`;send.focus()});
 }
 const search=document.querySelector('#search-menu');
-if(search){const category=document.querySelector('#category'),price=document.querySelector('#price-mode');const selected=new URLSearchParams(location.search).get('categoria');if([...category.options].some(o=>o.value===selected))category.value=selected;
+if(search){
+ const chips=[...document.querySelectorAll('[data-category-filter]')];
+ const categoryList=document.querySelector('.category-list');
+ const catalog=document.querySelector('#catalogo');
+ const header=document.querySelector('.header');
  const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
- function filter(){let count=0;document.querySelectorAll('.menu-category').forEach(section=>{let visible=0;section.querySelectorAll('.product').forEach(product=>{const match=(category.value==='tutte'||category.value===section.dataset.category)&&normalize(product.dataset.search).includes(normalize(search.value.trim()));product.hidden=!match;if(match)visible++});section.hidden=!visible;count+=visible});document.querySelector('#result-count').textContent=`${count} prodotti nel menù`;document.querySelector('#empty-menu').hidden=count!==0;document.querySelectorAll('.product-price b').forEach(b=>{b.textContent=b.dataset[price.value];const label=b.nextElementSibling;if(b.dataset.gf!==b.dataset.classica)label.textContent=price.value==='gf'?'senza glutine':'classica · con glutine'})}
- search.addEventListener('input',filter);category.addEventListener('change',filter);price.addEventListener('change',filter);filter();
+ const fromURL=()=>{const value=new URLSearchParams(location.search).get('categoria');return chips.some(c=>c.dataset.categoryFilter===value)?value:'tutte'};
+ let category=fromURL();
+ function revealCategory(){
+  const active=chips.find(c=>c.dataset.categoryFilter===category);
+  if(active&&categoryList.scrollWidth>categoryList.clientWidth){
+   const listRect=categoryList.getBoundingClientRect(),activeRect=active.getBoundingClientRect();
+   categoryList.scrollTo({left:categoryList.scrollLeft+activeRect.left-listRect.left-(listRect.width-activeRect.width)/2,behavior:'instant'});
+  }
+ }
+ function filter(){
+  let count=0;
+  const term=normalize(search.value.trim());
+  document.querySelectorAll('.menu-category').forEach(section=>{
+   let visible=0;
+   section.querySelectorAll('.product').forEach(product=>{
+    const match=(category==='tutte'||category===section.dataset.category)&&normalize(product.dataset.search).includes(term);
+    product.hidden=!match;if(match)visible++;
+   });
+   section.hidden=!visible;count+=visible;
+  });
+  chips.forEach(c=>c.setAttribute('aria-pressed',String(c.dataset.categoryFilter===category)));
+  document.querySelector('#result-count').textContent=`${count} ${count===1?'prodotto':'prodotti'} nel menù`;
+  document.querySelector('#empty-menu').hidden=count!==0;
+ }
+ function updateOffset(){
+  const height=Math.ceil(header.getBoundingClientRect().height);
+  catalog.style.setProperty('--menu-nav-top',`${height}px`);
+  catalog.style.scrollMarginTop=`${height+12}px`;
+ }
+ chips.forEach(chip=>chip.addEventListener('click',()=>{
+  category=chip.dataset.categoryFilter;
+  const url=new URL(location.href);
+  if(category==='tutte')url.searchParams.delete('categoria');else url.searchParams.set('categoria',category);
+  if(url.href!==location.href)history.pushState(null,'',url);
+  filter();revealCategory();
+  const resultsTop=document.querySelector('#menu-results').getBoundingClientRect().top+scrollY;
+  window.scrollTo({top:resultsTop-catalog.offsetHeight-header.getBoundingClientRect().height-12,behavior:'instant'});
+ }));
+ search.addEventListener('input',filter);
+ addEventListener('popstate',()=>{category=fromURL();filter();revealCategory()});
+ addEventListener('resize',()=>{updateOffset();revealCategory()});
+ if('ResizeObserver' in window)new ResizeObserver(updateOffset).observe(header);
+ updateOffset();filter();requestAnimationFrame(revealCategory);
 }
 
 // Reference experience: native smooth anchors, scroll progress and three-step story.

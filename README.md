@@ -2,7 +2,7 @@
 
 Sito della pizzeria Sorriso Bistrot, Via Sarnano 4, Roma.
 
-Landing responsive e menù con 89 prodotti, ricerca, categorie e prezzi classica/gluten free. Richieste tavolo e asporto tramite messaggio WhatsApp; consegna tramite Deliveroo e Just Eat.
+Landing responsive e menù con 89 prodotti, ricerca, categorie a pulsanti e prezzi classica/gluten free visibili nelle schede, senza selettore del listino. Richieste tavolo e asporto tramite messaggio WhatsApp; consegna tramite Deliveroo e Just Eat.
 
 ## Sviluppo locale
 
