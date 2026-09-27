@@ -29,7 +29,13 @@ Il sito è statico: i file HTML generati sono già pronti per GitHub Pages.
 
 ## Foto e video
 
-Foto della pizzeria, farine e prodotti sono segnaposto. Per attivare i tre video aggiungere i file MP4 in `videos/` e impostare `videoSources` in `app.js`:
+Il sito contiene 95 immagini generate con IA a scopo illustrativo: 6 immagini per la home e una per ciascuno degli 89 prodotti del menù. La dicitura è visibile sulle pagine; le immagini non rappresentano fotografie del locale o dei prodotti effettivamente serviti.
+
+Le 196 varianti WebP responsive sono in `img/generated/`; `image-assets.json` associa ogni prodotto alle sue immagini. Il caricamento usa `srcset` e `sizes`, dimensioni esplicite e lazy loading, tranne la prima immagine principale.
+
+`prepare_images.py` prepara le varianti dagli originali elencati nel manifest locale `output/imagegen/manifest.json` e salva i prompt in `output/imagegen/prompts.json`. Questa fase richiede Pillow; la cartella `output/` è esclusa da Git. Per ricostruire il sito con le immagini già presenti è sufficiente `python3 build_site.py`.
+
+Il carosello della home mostra tre immagini di copertina. Per attivare i tre video aggiungere i file MP4 in `videos/` e impostare `videoSources` in `app.js`:
 
 ```js
 const videoSources = ['videos/impasti.mp4', 'videos/forno.mp4', 'videos/pizzeria.mp4'];

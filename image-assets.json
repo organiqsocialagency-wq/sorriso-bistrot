@@ -1,0 +1,1647 @@
+{
+  "antipasti/Bombette di Formaggio (5 pz)": {
+    "id": "antipasti-bombette-di-formaggio-5-pz",
+    "name": "Bombette di Formaggio (5 pz)",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-bombette-di-formaggio-5-pz-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-bombette-di-formaggio-5-pz-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Chips Cacio e Pepe": {
+    "id": "antipasti-chips-cacio-e-pepe",
+    "name": "Chips Cacio e Pepe",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-chips-cacio-e-pepe-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-chips-cacio-e-pepe-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Crocchetta al Tartufo": {
+    "id": "antipasti-crocchetta-al-tartufo",
+    "name": "Crocchetta al Tartufo",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-crocchetta-al-tartufo-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-crocchetta-al-tartufo-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Crocchette di Patate": {
+    "id": "antipasti-crocchette-di-patate",
+    "name": "Crocchette di Patate",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-crocchette-di-patate-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-crocchette-di-patate-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Frittatina di Pasta": {
+    "id": "antipasti-frittatina-di-pasta",
+    "name": "Frittatina di Pasta",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-frittatina-di-pasta-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-frittatina-di-pasta-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Montanare (2 pz)": {
+    "id": "antipasti-montanare-2-pz",
+    "name": "Montanare (2 pz)",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-montanare-2-pz-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-montanare-2-pz-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Patatine Fritte": {
+    "id": "antipasti-patatine-fritte",
+    "name": "Patatine Fritte",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-patatine-fritte-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-patatine-fritte-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Supplì di Riso": {
+    "id": "antipasti-suppli-di-riso",
+    "name": "Supplì di Riso",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-suppli-di-riso-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-suppli-di-riso-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Supplì Friarielli e Salsiccia": {
+    "id": "antipasti-suppli-friarielli-e-salsiccia",
+    "name": "Supplì Friarielli e Salsiccia",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-suppli-friarielli-e-salsiccia-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-suppli-friarielli-e-salsiccia-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Supplì N'duja": {
+    "id": "antipasti-suppli-n-duja",
+    "name": "Supplì N'duja",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-suppli-n-duja-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-suppli-n-duja-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "antipasti/Supplì Polipo Cacio e Pepe": {
+    "id": "antipasti-suppli-polipo-cacio-e-pepe",
+    "name": "Supplì Polipo Cacio e Pepe",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/antipasti-suppli-polipo-cacio-e-pepe-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/antipasti-suppli-polipo-cacio-e-pepe-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Acqua Effervescente": {
+    "id": "bevande-acqua-effervescente",
+    "name": "Acqua Effervescente",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-acqua-effervescente-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-acqua-effervescente-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Acqua Naturale": {
+    "id": "bevande-acqua-naturale",
+    "name": "Acqua Naturale",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-acqua-naturale-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-acqua-naturale-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Amaro": {
+    "id": "bevande-amaro",
+    "name": "Amaro",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-amaro-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-amaro-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Bjorne Beer Lager 33cl · Danimarca": {
+    "id": "bevande-bjorne-beer-lager-33cl-danimarca",
+    "name": "Bjorne Beer Lager 33cl · Danimarca",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-bjorne-beer-lager-33cl-danimarca-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-bjorne-beer-lager-33cl-danimarca-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Bjorne Doppio Malto 33cl · GF": {
+    "id": "bevande-bjorne-doppio-malto-33cl-gf",
+    "name": "Bjorne Doppio Malto 33cl · GF",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-bjorne-doppio-malto-33cl-gf-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-bjorne-doppio-malto-33cl-gf-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Calice di Vino · chiedere allo staff": {
+    "id": "bevande-calice-di-vino-chiedere-allo-staff",
+    "name": "Calice di Vino · chiedere allo staff",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-calice-di-vino-chiedere-allo-staff-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-calice-di-vino-chiedere-allo-staff-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Caulier Bionda Artigianale 33cl · Belgio": {
+    "id": "bevande-caulier-bionda-artigianale-33cl-belgio",
+    "name": "Caulier Bionda Artigianale 33cl · Belgio",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-caulier-bionda-artigianale-33cl-belgio-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-caulier-bionda-artigianale-33cl-belgio-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Caulier Pils Artigianale 33cl · Belgio": {
+    "id": "bevande-caulier-pils-artigianale-33cl-belgio",
+    "name": "Caulier Pils Artigianale 33cl · Belgio",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-caulier-pils-artigianale-33cl-belgio-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-caulier-pils-artigianale-33cl-belgio-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Caulier Triplo Malto 33cl · Belgio": {
+    "id": "bevande-caulier-triplo-malto-33cl-belgio",
+    "name": "Caulier Triplo Malto 33cl · Belgio",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-caulier-triplo-malto-33cl-belgio-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-caulier-triplo-malto-33cl-belgio-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Coca Cola 1L": {
+    "id": "bevande-coca-cola-1l",
+    "name": "Coca Cola 1L",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-coca-cola-1l-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-coca-cola-1l-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Coca Cola Zero 33cl": {
+    "id": "bevande-coca-cola-zero-33cl",
+    "name": "Coca Cola Zero 33cl",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-coca-cola-zero-33cl-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-coca-cola-zero-33cl-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Fanta Lattina 33cl": {
+    "id": "bevande-fanta-lattina-33cl",
+    "name": "Fanta Lattina 33cl",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-fanta-lattina-33cl-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-fanta-lattina-33cl-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Flotzinger Hell Bionda · Germania": {
+    "id": "bevande-flotzinger-hell-bionda-germania",
+    "name": "Flotzinger Hell Bionda · Germania",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-flotzinger-hell-bionda-germania-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-flotzinger-hell-bionda-germania-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Grappa Bonollo Barricata": {
+    "id": "bevande-grappa-bonollo-barricata",
+    "name": "Grappa Bonollo Barricata",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-grappa-bonollo-barricata-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-grappa-bonollo-barricata-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Grappa Bonollo Bianca": {
+    "id": "bevande-grappa-bonollo-bianca",
+    "name": "Grappa Bonollo Bianca",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-grappa-bonollo-bianca-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-grappa-bonollo-bianca-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/IPA Artigianale Granda · Italia": {
+    "id": "bevande-ipa-artigianale-granda-italia",
+    "name": "IPA Artigianale Granda · Italia",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-ipa-artigianale-granda-italia-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-ipa-artigianale-granda-italia-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Limoncello": {
+    "id": "bevande-limoncello",
+    "name": "Limoncello",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-limoncello-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-limoncello-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Senza Glutine Artigianale · Italia · GF": {
+    "id": "bevande-senza-glutine-artigianale-italia-gf",
+    "name": "Senza Glutine Artigianale · Italia · GF",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-senza-glutine-artigianale-italia-gf-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-senza-glutine-artigianale-italia-gf-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bevande/Sprite Lattina 33cl": {
+    "id": "bevande-sprite-lattina-33cl",
+    "name": "Sprite Lattina 33cl",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bevande-sprite-lattina-33cl-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bevande-sprite-lattina-33cl-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bruschettoni/Boscaiolo": {
+    "id": "bruschettoni-boscaiolo",
+    "name": "Boscaiolo",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bruschettoni-boscaiolo-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bruschettoni-boscaiolo-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bruschettoni/Crostino": {
+    "id": "bruschettoni-crostino",
+    "name": "Crostino",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bruschettoni-crostino-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bruschettoni-crostino-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bruschettoni/Ricotta e Miele": {
+    "id": "bruschettoni-ricotta-e-miele",
+    "name": "Ricotta e Miele",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bruschettoni-ricotta-e-miele-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bruschettoni-ricotta-e-miele-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bruschettoni/Stracciatella e Alici": {
+    "id": "bruschettoni-stracciatella-e-alici",
+    "name": "Stracciatella e Alici",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bruschettoni-stracciatella-e-alici-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bruschettoni-stracciatella-e-alici-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "bruschettoni/Zucchine e Speck": {
+    "id": "bruschettoni-zucchine-e-speck",
+    "name": "Zucchine e Speck",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/bruschettoni-zucchine-e-speck-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/bruschettoni-zucchine-e-speck-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "calzoni/Boscaiolo": {
+    "id": "calzoni-boscaiolo",
+    "name": "Boscaiolo",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/calzoni-boscaiolo-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/calzoni-boscaiolo-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "calzoni/Classico": {
+    "id": "calzoni-classico",
+    "name": "Classico",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/calzoni-classico-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/calzoni-classico-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "calzoni/Ricotta e Salame": {
+    "id": "calzoni-ricotta-e-salame",
+    "name": "Ricotta e Salame",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/calzoni-ricotta-e-salame-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/calzoni-ricotta-e-salame-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "calzoni/Salsiccia e Friarielli": {
+    "id": "calzoni-salsiccia-e-friarielli",
+    "name": "Salsiccia e Friarielli",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/calzoni-salsiccia-e-friarielli-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/calzoni-salsiccia-e-friarielli-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "calzoni/Salsiccia e Provola": {
+    "id": "calzoni-salsiccia-e-provola",
+    "name": "Salsiccia e Provola",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/calzoni-salsiccia-e-provola-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/calzoni-salsiccia-e-provola-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Cannolo Siciliano Scomposto": {
+    "id": "dolci-cannolo-siciliano-scomposto",
+    "name": "Cannolo Siciliano Scomposto",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-cannolo-siciliano-scomposto-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-cannolo-siciliano-scomposto-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Cassata Siciliana": {
+    "id": "dolci-cassata-siciliana",
+    "name": "Cassata Siciliana",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-cassata-siciliana-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-cassata-siciliana-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Cheesecake": {
+    "id": "dolci-cheesecake",
+    "name": "Cheesecake",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-cheesecake-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-cheesecake-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Crema di Caffè": {
+    "id": "dolci-crema-di-caffe",
+    "name": "Crema di Caffè",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-crema-di-caffe-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-crema-di-caffe-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Crema di Limone di Sorrento": {
+    "id": "dolci-crema-di-limone-di-sorrento",
+    "name": "Crema di Limone di Sorrento",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-crema-di-limone-di-sorrento-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-crema-di-limone-di-sorrento-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Diavoletti alla Nutella · al Miele": {
+    "id": "dolci-diavoletti-alla-nutella-al-miele",
+    "name": "Diavoletti alla Nutella · al Miele",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-diavoletti-alla-nutella-al-miele-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-diavoletti-alla-nutella-al-miele-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Fagottino": {
+    "id": "dolci-fagottino",
+    "name": "Fagottino",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-fagottino-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-fagottino-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "dolci/Panna Cotta": {
+    "id": "dolci-panna-cotta",
+    "name": "Panna Cotta",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/dolci-panna-cotta-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/dolci-panna-cotta-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gourmet/Ar Foco!": {
+    "id": "gourmet-ar-foco",
+    "name": "Ar Foco!",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/gourmet-ar-foco-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/gourmet-ar-foco-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gourmet/Er Bibitaro": {
+    "id": "gourmet-er-bibitaro",
+    "name": "Er Bibitaro",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/gourmet-er-bibitaro-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/gourmet-er-bibitaro-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gourmet/Er Patata": {
+    "id": "gourmet-er-patata",
+    "name": "Er Patata",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/gourmet-er-patata-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/gourmet-er-patata-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gourmet/Er Polpetta": {
+    "id": "gourmet-er-polpetta",
+    "name": "Er Polpetta",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/gourmet-er-polpetta-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/gourmet-er-polpetta-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gourmet/Li Castelli": {
+    "id": "gourmet-li-castelli",
+    "name": "Li Castelli",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/gourmet-li-castelli-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/gourmet-li-castelli-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gourmet/Mortazza Tua": {
+    "id": "gourmet-mortazza-tua",
+    "name": "Mortazza Tua",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/gourmet-mortazza-tua-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/gourmet-mortazza-tua-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gourmet/Na Burina": {
+    "id": "gourmet-na-burina",
+    "name": "Na Burina",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/gourmet-na-burina-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/gourmet-na-burina-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "grand-gourmet/La Campione del Mondo": {
+    "id": "grand-gourmet-la-campione-del-mondo",
+    "name": "La Campione del Mondo",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/grand-gourmet-la-campione-del-mondo-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/grand-gourmet-la-campione-del-mondo-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "grand-gourmet/La Prima Volta": {
+    "id": "grand-gourmet-la-prima-volta",
+    "name": "La Prima Volta",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/grand-gourmet-la-prima-volta-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/grand-gourmet-la-prima-volta-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "grand-gourmet/Omega 3": {
+    "id": "grand-gourmet-omega-3",
+    "name": "Omega 3",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/grand-gourmet-omega-3-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/grand-gourmet-omega-3-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "home/dough-canapa": {
+    "id": "home-dough-canapa",
+    "name": "Impasto alla canapa",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/home-dough-canapa-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/home-dough-canapa-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "img/generated/home-dough-canapa-1440.webp",
+        "width": 1440,
+        "height": 1080
+      }
+    ]
+  },
+  "home/dough-originale": {
+    "id": "home-dough-originale",
+    "name": "L’originale di Sorriso",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/home-dough-originale-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/home-dough-originale-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "img/generated/home-dough-originale-1440.webp",
+        "width": 1440,
+        "height": 1080
+      }
+    ]
+  },
+  "home/dough-zucca": {
+    "id": "home-dough-zucca",
+    "name": "Impasto alla zucca",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/home-dough-zucca-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/home-dough-zucca-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "img/generated/home-dough-zucca-1440.webp",
+        "width": 1440,
+        "height": 1080
+      }
+    ]
+  },
+  "home/forno": {
+    "id": "home-forno",
+    "name": "Pizza in cottura",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/home-forno-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/home-forno-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "img/generated/home-forno-1440.webp",
+        "width": 1440,
+        "height": 1080
+      }
+    ]
+  },
+  "home/preparazione": {
+    "id": "home-preparazione",
+    "name": "Preparazione degli impasti",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/home-preparazione-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/home-preparazione-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "img/generated/home-preparazione-1440.webp",
+        "width": 1440,
+        "height": 1080
+      }
+    ]
+  },
+  "home/tavola": {
+    "id": "home-tavola",
+    "name": "Pizza a tavola",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/home-tavola-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/home-tavola-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "img/generated/home-tavola-1440.webp",
+        "width": 1440,
+        "height": 1080
+      }
+    ]
+  },
+  "pizze/Americana": {
+    "id": "pizze-americana",
+    "name": "Americana",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-americana-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-americana-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Boscaiola": {
+    "id": "pizze-boscaiola",
+    "name": "Boscaiola",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-boscaiola-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-boscaiola-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Bufalina": {
+    "id": "pizze-bufalina",
+    "name": "Bufalina",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-bufalina-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-bufalina-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Capricciosa": {
+    "id": "pizze-capricciosa",
+    "name": "Capricciosa",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-capricciosa-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-capricciosa-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Crostino": {
+    "id": "pizze-crostino",
+    "name": "Crostino",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-crostino-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-crostino-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Diavola": {
+    "id": "pizze-diavola",
+    "name": "Diavola",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-diavola-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-diavola-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Margherita": {
+    "id": "pizze-margherita",
+    "name": "Margherita",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-margherita-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-margherita-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Marinara": {
+    "id": "pizze-marinara",
+    "name": "Marinara",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-marinara-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-marinara-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Pugliese": {
+    "id": "pizze-pugliese",
+    "name": "Pugliese",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-pugliese-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-pugliese-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Quattro Formaggi": {
+    "id": "pizze-quattro-formaggi",
+    "name": "Quattro Formaggi",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-quattro-formaggi-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-quattro-formaggi-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Romana": {
+    "id": "pizze-romana",
+    "name": "Romana",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-romana-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-romana-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Vegetariana": {
+    "id": "pizze-vegetariana",
+    "name": "Vegetariana",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-vegetariana-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-vegetariana-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "pizze/Zucchine e Speck": {
+    "id": "pizze-zucchine-e-speck",
+    "name": "Zucchine e Speck",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/pizze-zucchine-e-speck-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/pizze-zucchine-e-speck-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "primi/Fusilli Cacio e Pepe": {
+    "id": "primi-fusilli-cacio-e-pepe",
+    "name": "Fusilli Cacio e Pepe",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/primi-fusilli-cacio-e-pepe-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/primi-fusilli-cacio-e-pepe-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "primi/Mezze Maniche alla Matriciana": {
+    "id": "primi-mezze-maniche-alla-matriciana",
+    "name": "Mezze Maniche alla Matriciana",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/primi-mezze-maniche-alla-matriciana-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/primi-mezze-maniche-alla-matriciana-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "primi/Penne Boscaiola": {
+    "id": "primi-penne-boscaiola",
+    "name": "Penne Boscaiola",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/primi-penne-boscaiola-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/primi-penne-boscaiola-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "secondi/Hamburger 300g con Patatine": {
+    "id": "secondi-hamburger-300g-con-patatine",
+    "name": "Hamburger 300g con Patatine",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/secondi-hamburger-300g-con-patatine-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/secondi-hamburger-300g-con-patatine-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "secondi/Polpette al Sugo": {
+    "id": "secondi-polpette-al-sugo",
+    "name": "Polpette al Sugo",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/secondi-polpette-al-sugo-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/secondi-polpette-al-sugo-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "secondi/Verdure Grigliate con Bufala": {
+    "id": "secondi-verdure-grigliate-con-bufala",
+    "name": "Verdure Grigliate con Bufala",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/secondi-verdure-grigliate-con-bufala-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/secondi-verdure-grigliate-con-bufala-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Dachimangi": {
+    "id": "speciali-dachimangi",
+    "name": "Dachimangi",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-dachimangi-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-dachimangi-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/De Mi Madre": {
+    "id": "speciali-de-mi-madre",
+    "name": "De Mi Madre",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-de-mi-madre-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-de-mi-madre-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Er Cucuzza": {
+    "id": "speciali-er-cucuzza",
+    "name": "Er Cucuzza",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-er-cucuzza-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-er-cucuzza-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Er Pecora": {
+    "id": "speciali-er-pecora",
+    "name": "Er Pecora",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-er-pecora-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-er-pecora-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Er Tramonto": {
+    "id": "speciali-er-tramonto",
+    "name": "Er Tramonto",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-er-tramonto-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-er-tramonto-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Fiori e Alici": {
+    "id": "speciali-fiori-e-alici",
+    "name": "Fiori e Alici",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-fiori-e-alici-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-fiori-e-alici-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Italia": {
+    "id": "speciali-italia",
+    "name": "Italia",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-italia-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-italia-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Na Figata": {
+    "id": "speciali-na-figata",
+    "name": "Na Figata",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-na-figata-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-na-figata-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Patate e Salsiccia": {
+    "id": "speciali-patate-e-salsiccia",
+    "name": "Patate e Salsiccia",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-patate-e-salsiccia-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-patate-e-salsiccia-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Porcini": {
+    "id": "speciali-porcini",
+    "name": "Porcini",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-porcini-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-porcini-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/San Daniele": {
+    "id": "speciali-san-daniele",
+    "name": "San Daniele",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-san-daniele-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-san-daniele-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "speciali/Speck e Noci": {
+    "id": "speciali-speck-e-noci",
+    "name": "Speck e Noci",
+    "illustrative": true,
+    "variants": [
+      {
+        "src": "img/generated/speciali-speck-e-noci-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/generated/speciali-speck-e-noci-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  }
+}

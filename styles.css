@@ -130,3 +130,36 @@
 .dough-assurance ul{display:flex;justify-content:center;gap:8px 18px;flex-wrap:wrap;margin:0 0 12px;font-size:12px;font-weight:600}.dough-assurance li:before{content:'✓';margin-right:6px;color:var(--green)}
 .dough-assurance .dough-assurance-note{font-size:12px;color:var(--muted)}.menu-assurance{max-width:none;margin-top:24px}
 @media(max-width:600px){.dough-assurance{padding:18px}.dough-assurance ul{display:grid;grid-template-columns:1fr;text-align:left;gap:7px}}
+
+/* Generated imagery: responsive photographs, fixed aspect ratios and readable overlays. */
+.food-photo{margin:0;isolation:isolate}
+.food-photo:before,.food-photo:after{display:none}
+.food-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.food-photo figcaption{position:absolute;bottom:10px;left:10px;z-index:1;padding:4px 9px;border-radius:5px;background:rgba(251,247,242,.94);color:#513723;font:10px/1.5 Montserrat,Arial,sans-serif}
+.product .food-photo{aspect-ratio:4/3}
+.dough-picture .number{background:rgba(251,247,242,.94);color:var(--brown);border-radius:50%;width:45px;height:45px;display:grid;place-items:center;font-size:19px}
+.hero .has-images{max-width:880px;margin-top:42px}
+.hero .has-images .video-frame{height:auto;aspect-ratio:16/9;background:#382519}
+.hero .has-images .video-placeholder{background:none}
+.hero .has-images .video-placeholder>img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.hero .has-images .video-placeholder:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,18,10,.55),transparent 35%,rgba(30,18,10,.12) 50%,rgba(30,18,10,.84));pointer-events:none}
+.hero .has-images .video-frame:before{border-color:rgba(255,255,255,.3)}
+.hero .has-images .video-top,.hero .has-images .video-caption h2,.hero .has-images .video-caption p{color:#fff8f0}
+.hero .has-images .video-caption{z-index:2;bottom:84px}
+.hero .has-images .video-caption h2{font-size:clamp(21px,3vw,32px)}
+.hero .has-images .video-placeholder>.hero-image-note{position:absolute;top:auto;right:30px;bottom:29px;z-index:3;margin:0 55px 0 0;color:#fff8f0;font-size:9px;letter-spacing:.3px}
+.hero .has-images .dots button{color:#fff8f0;background:rgba(45,25,12,.35)}
+.hero .has-images .dots button.selected{color:var(--brown);background:var(--cream);border-color:var(--cream)}
+.illustrated-cover:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(40,25,12,.2),rgba(40,25,12,.05) 35%,rgba(40,25,12,.78))}
+.illustrated-cover .social-platform,.illustrated-cover .social-coming{z-index:1}
+.illustrated-cover .social-coming{color:#fff8f0}
+.illustrated-cover .social-placeholder-mark{display:none}
+.image-disclosure{font-size:11px;line-height:1.7;color:#e4cdbb;margin-top:28px;margin-bottom:25px;max-width:1180px}
+.menu-image-note{margin-top:12px}
+@media(max-width:600px){
+ #impasti .dough-picture,#impasti .dough-picture .food-photo{height:auto}
+ .hero .has-images .video-frame{aspect-ratio:4/3}
+ .hero .has-images .video-caption{bottom:72px}
+ .hero .has-images .video-placeholder>.hero-image-note{bottom:29px;right:20px;margin-right:46px;font-size:8px}
+ .product .food-photo{aspect-ratio:4/3}
+}
