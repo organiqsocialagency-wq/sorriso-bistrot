@@ -31,9 +31,11 @@ Il sito è statico: i file HTML generati sono già pronti per GitHub Pages.
 
 Il sito contiene 95 immagini generate con IA a scopo illustrativo: 6 immagini per la home e una per ciascuno degli 89 prodotti del menù. La dicitura è visibile sulle pagine; le immagini non rappresentano fotografie del locale o dei prodotti effettivamente serviti.
 
-Le 196 varianti WebP responsive sono in `img/generated/`; `image-assets.json` associa ogni prodotto alle sue immagini. Il caricamento usa `srcset` e `sizes`, dimensioni esplicite e lazy loading, tranne la prima immagine principale.
+Le 196 varianti WebP responsive attive sono in `img/generated/`; `image-assets.json` associa ogni prodotto alle sue immagini. Il caricamento usa `srcset` e `sizes`, dimensioni esplicite e lazy loading, tranne la prima immagine principale.
 
 `prepare_images.py` prepara le varianti dagli originali elencati nel manifest locale `output/imagegen/manifest.json` e salva i prompt in `output/imagegen/prompts.json`. Questa fase richiede Pillow; la cartella `output/` è esclusa da Git. Per ricostruire il sito con le immagini già presenti è sufficiente `python3 build_site.py`.
+
+Il 1 ottobre 2026 sono state rigenerate 34 immagini di pizze e 2 immagini della home usando come riferimento gli scatti di pinse forniti dal locale: forma tonda, piatto bianco, luce chiara e condimenti coerenti con il menù. I file aggiornati hanno suffisso `-v2-` per evitare immagini obsolete in cache. Gli originali, i riferimenti e i prompt della nuova serie sono archiviati localmente in `output/imagegen/reference-v2/`. La Campione del Mondo conserva il dettaglio dell’impasto precedente, in attesa dei sette ingredienti o di una foto identificata dal locale.
 
 Il carosello della home mostra tre immagini di copertina. Per attivare i tre video aggiungere i file MP4 in `videos/` e impostare `videoSources` in `app.js`:
 

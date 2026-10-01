@@ -816,119 +816,119 @@
     ]
   },
   "gourmet/Ar Foco!": {
-    "id": "gourmet-ar-foco",
+    "id": "gourmet-ar-foco-v2",
     "name": "Ar Foco!",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/gourmet-ar-foco-480.webp",
+        "src": "img/generated/gourmet-ar-foco-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/gourmet-ar-foco-960.webp",
+        "src": "img/generated/gourmet-ar-foco-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "gourmet/Er Bibitaro": {
-    "id": "gourmet-er-bibitaro",
+    "id": "gourmet-er-bibitaro-v2",
     "name": "Er Bibitaro",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/gourmet-er-bibitaro-480.webp",
+        "src": "img/generated/gourmet-er-bibitaro-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/gourmet-er-bibitaro-960.webp",
+        "src": "img/generated/gourmet-er-bibitaro-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "gourmet/Er Patata": {
-    "id": "gourmet-er-patata",
+    "id": "gourmet-er-patata-v2",
     "name": "Er Patata",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/gourmet-er-patata-480.webp",
+        "src": "img/generated/gourmet-er-patata-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/gourmet-er-patata-960.webp",
+        "src": "img/generated/gourmet-er-patata-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "gourmet/Er Polpetta": {
-    "id": "gourmet-er-polpetta",
+    "id": "gourmet-er-polpetta-v2",
     "name": "Er Polpetta",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/gourmet-er-polpetta-480.webp",
+        "src": "img/generated/gourmet-er-polpetta-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/gourmet-er-polpetta-960.webp",
+        "src": "img/generated/gourmet-er-polpetta-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "gourmet/Li Castelli": {
-    "id": "gourmet-li-castelli",
+    "id": "gourmet-li-castelli-v2",
     "name": "Li Castelli",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/gourmet-li-castelli-480.webp",
+        "src": "img/generated/gourmet-li-castelli-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/gourmet-li-castelli-960.webp",
+        "src": "img/generated/gourmet-li-castelli-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "gourmet/Mortazza Tua": {
-    "id": "gourmet-mortazza-tua",
+    "id": "gourmet-mortazza-tua-v2",
     "name": "Mortazza Tua",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/gourmet-mortazza-tua-480.webp",
+        "src": "img/generated/gourmet-mortazza-tua-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/gourmet-mortazza-tua-960.webp",
+        "src": "img/generated/gourmet-mortazza-tua-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "gourmet/Na Burina": {
-    "id": "gourmet-na-burina",
+    "id": "gourmet-na-burina-v2",
     "name": "Na Burina",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/gourmet-na-burina-480.webp",
+        "src": "img/generated/gourmet-na-burina-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/gourmet-na-burina-960.webp",
+        "src": "img/generated/gourmet-na-burina-v2-960.webp",
         "width": 960,
         "height": 720
       }
@@ -952,34 +952,34 @@
     ]
   },
   "grand-gourmet/La Prima Volta": {
-    "id": "grand-gourmet-la-prima-volta",
+    "id": "grand-gourmet-la-prima-volta-v2",
     "name": "La Prima Volta",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/grand-gourmet-la-prima-volta-480.webp",
+        "src": "img/generated/grand-gourmet-la-prima-volta-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/grand-gourmet-la-prima-volta-960.webp",
+        "src": "img/generated/grand-gourmet-la-prima-volta-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "grand-gourmet/Omega 3": {
-    "id": "grand-gourmet-omega-3",
+    "id": "grand-gourmet-omega-3-v2",
     "name": "Omega 3",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/grand-gourmet-omega-3-480.webp",
+        "src": "img/generated/grand-gourmet-omega-3-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/grand-gourmet-omega-3-960.webp",
+        "src": "img/generated/grand-gourmet-omega-3-v2-960.webp",
         "width": 960,
         "height": 720
       }
@@ -1052,22 +1052,22 @@
     ]
   },
   "home/forno": {
-    "id": "home-forno",
+    "id": "home-forno-v2",
     "name": "Pizza in cottura",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/home-forno-480.webp",
+        "src": "img/generated/home-forno-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/home-forno-960.webp",
+        "src": "img/generated/home-forno-v2-960.webp",
         "width": 960,
         "height": 720
       },
       {
-        "src": "img/generated/home-forno-1440.webp",
+        "src": "img/generated/home-forno-v2-1440.webp",
         "width": 1440,
         "height": 1080
       }
@@ -1096,243 +1096,243 @@
     ]
   },
   "home/tavola": {
-    "id": "home-tavola",
+    "id": "home-tavola-v2",
     "name": "Pizza a tavola",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/home-tavola-480.webp",
+        "src": "img/generated/home-tavola-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/home-tavola-960.webp",
+        "src": "img/generated/home-tavola-v2-960.webp",
         "width": 960,
         "height": 720
       },
       {
-        "src": "img/generated/home-tavola-1440.webp",
+        "src": "img/generated/home-tavola-v2-1440.webp",
         "width": 1440,
         "height": 1080
       }
     ]
   },
   "pizze/Americana": {
-    "id": "pizze-americana",
+    "id": "pizze-americana-v2",
     "name": "Americana",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-americana-480.webp",
+        "src": "img/generated/pizze-americana-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-americana-960.webp",
+        "src": "img/generated/pizze-americana-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Boscaiola": {
-    "id": "pizze-boscaiola",
+    "id": "pizze-boscaiola-v2",
     "name": "Boscaiola",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-boscaiola-480.webp",
+        "src": "img/generated/pizze-boscaiola-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-boscaiola-960.webp",
+        "src": "img/generated/pizze-boscaiola-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Bufalina": {
-    "id": "pizze-bufalina",
+    "id": "pizze-bufalina-v2",
     "name": "Bufalina",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-bufalina-480.webp",
+        "src": "img/generated/pizze-bufalina-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-bufalina-960.webp",
+        "src": "img/generated/pizze-bufalina-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Capricciosa": {
-    "id": "pizze-capricciosa",
+    "id": "pizze-capricciosa-v2",
     "name": "Capricciosa",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-capricciosa-480.webp",
+        "src": "img/generated/pizze-capricciosa-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-capricciosa-960.webp",
+        "src": "img/generated/pizze-capricciosa-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Crostino": {
-    "id": "pizze-crostino",
+    "id": "pizze-crostino-v2",
     "name": "Crostino",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-crostino-480.webp",
+        "src": "img/generated/pizze-crostino-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-crostino-960.webp",
+        "src": "img/generated/pizze-crostino-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Diavola": {
-    "id": "pizze-diavola",
+    "id": "pizze-diavola-v2",
     "name": "Diavola",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-diavola-480.webp",
+        "src": "img/generated/pizze-diavola-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-diavola-960.webp",
+        "src": "img/generated/pizze-diavola-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Margherita": {
-    "id": "pizze-margherita",
+    "id": "pizze-margherita-v2",
     "name": "Margherita",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-margherita-480.webp",
+        "src": "img/generated/pizze-margherita-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-margherita-960.webp",
+        "src": "img/generated/pizze-margherita-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Marinara": {
-    "id": "pizze-marinara",
+    "id": "pizze-marinara-v2",
     "name": "Marinara",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-marinara-480.webp",
+        "src": "img/generated/pizze-marinara-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-marinara-960.webp",
+        "src": "img/generated/pizze-marinara-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Pugliese": {
-    "id": "pizze-pugliese",
+    "id": "pizze-pugliese-v2",
     "name": "Pugliese",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-pugliese-480.webp",
+        "src": "img/generated/pizze-pugliese-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-pugliese-960.webp",
+        "src": "img/generated/pizze-pugliese-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Quattro Formaggi": {
-    "id": "pizze-quattro-formaggi",
+    "id": "pizze-quattro-formaggi-v2",
     "name": "Quattro Formaggi",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-quattro-formaggi-480.webp",
+        "src": "img/generated/pizze-quattro-formaggi-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-quattro-formaggi-960.webp",
+        "src": "img/generated/pizze-quattro-formaggi-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Romana": {
-    "id": "pizze-romana",
+    "id": "pizze-romana-v2",
     "name": "Romana",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-romana-480.webp",
+        "src": "img/generated/pizze-romana-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-romana-960.webp",
+        "src": "img/generated/pizze-romana-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Vegetariana": {
-    "id": "pizze-vegetariana",
+    "id": "pizze-vegetariana-v2",
     "name": "Vegetariana",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-vegetariana-480.webp",
+        "src": "img/generated/pizze-vegetariana-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-vegetariana-960.webp",
+        "src": "img/generated/pizze-vegetariana-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "pizze/Zucchine e Speck": {
-    "id": "pizze-zucchine-e-speck",
+    "id": "pizze-zucchine-e-speck-v2",
     "name": "Zucchine e Speck",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/pizze-zucchine-e-speck-480.webp",
+        "src": "img/generated/pizze-zucchine-e-speck-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/pizze-zucchine-e-speck-960.webp",
+        "src": "img/generated/pizze-zucchine-e-speck-v2-960.webp",
         "width": 960,
         "height": 720
       }
@@ -1441,204 +1441,204 @@
     ]
   },
   "speciali/Dachimangi": {
-    "id": "speciali-dachimangi",
+    "id": "speciali-dachimangi-v2",
     "name": "Dachimangi",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-dachimangi-480.webp",
+        "src": "img/generated/speciali-dachimangi-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-dachimangi-960.webp",
+        "src": "img/generated/speciali-dachimangi-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/De Mi Madre": {
-    "id": "speciali-de-mi-madre",
+    "id": "speciali-de-mi-madre-v2",
     "name": "De Mi Madre",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-de-mi-madre-480.webp",
+        "src": "img/generated/speciali-de-mi-madre-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-de-mi-madre-960.webp",
+        "src": "img/generated/speciali-de-mi-madre-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Er Cucuzza": {
-    "id": "speciali-er-cucuzza",
+    "id": "speciali-er-cucuzza-v2",
     "name": "Er Cucuzza",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-er-cucuzza-480.webp",
+        "src": "img/generated/speciali-er-cucuzza-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-er-cucuzza-960.webp",
+        "src": "img/generated/speciali-er-cucuzza-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Er Pecora": {
-    "id": "speciali-er-pecora",
+    "id": "speciali-er-pecora-v2",
     "name": "Er Pecora",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-er-pecora-480.webp",
+        "src": "img/generated/speciali-er-pecora-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-er-pecora-960.webp",
+        "src": "img/generated/speciali-er-pecora-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Er Tramonto": {
-    "id": "speciali-er-tramonto",
+    "id": "speciali-er-tramonto-v2",
     "name": "Er Tramonto",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-er-tramonto-480.webp",
+        "src": "img/generated/speciali-er-tramonto-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-er-tramonto-960.webp",
+        "src": "img/generated/speciali-er-tramonto-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Fiori e Alici": {
-    "id": "speciali-fiori-e-alici",
+    "id": "speciali-fiori-e-alici-v2",
     "name": "Fiori e Alici",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-fiori-e-alici-480.webp",
+        "src": "img/generated/speciali-fiori-e-alici-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-fiori-e-alici-960.webp",
+        "src": "img/generated/speciali-fiori-e-alici-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Italia": {
-    "id": "speciali-italia",
+    "id": "speciali-italia-v2",
     "name": "Italia",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-italia-480.webp",
+        "src": "img/generated/speciali-italia-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-italia-960.webp",
+        "src": "img/generated/speciali-italia-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Na Figata": {
-    "id": "speciali-na-figata",
+    "id": "speciali-na-figata-v2",
     "name": "Na Figata",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-na-figata-480.webp",
+        "src": "img/generated/speciali-na-figata-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-na-figata-960.webp",
+        "src": "img/generated/speciali-na-figata-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Patate e Salsiccia": {
-    "id": "speciali-patate-e-salsiccia",
+    "id": "speciali-patate-e-salsiccia-v2",
     "name": "Patate e Salsiccia",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-patate-e-salsiccia-480.webp",
+        "src": "img/generated/speciali-patate-e-salsiccia-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-patate-e-salsiccia-960.webp",
+        "src": "img/generated/speciali-patate-e-salsiccia-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Porcini": {
-    "id": "speciali-porcini",
+    "id": "speciali-porcini-v2",
     "name": "Porcini",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-porcini-480.webp",
+        "src": "img/generated/speciali-porcini-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-porcini-960.webp",
+        "src": "img/generated/speciali-porcini-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/San Daniele": {
-    "id": "speciali-san-daniele",
+    "id": "speciali-san-daniele-v2",
     "name": "San Daniele",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-san-daniele-480.webp",
+        "src": "img/generated/speciali-san-daniele-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-san-daniele-960.webp",
+        "src": "img/generated/speciali-san-daniele-v2-960.webp",
         "width": 960,
         "height": 720
       }
     ]
   },
   "speciali/Speck e Noci": {
-    "id": "speciali-speck-e-noci",
+    "id": "speciali-speck-e-noci-v2",
     "name": "Speck e Noci",
     "illustrative": true,
     "variants": [
       {
-        "src": "img/generated/speciali-speck-e-noci-480.webp",
+        "src": "img/generated/speciali-speck-e-noci-v2-480.webp",
         "width": 480,
         "height": 360
       },
       {
-        "src": "img/generated/speciali-speck-e-noci-960.webp",
+        "src": "img/generated/speciali-speck-e-noci-v2-960.webp",
         "width": 960,
         "height": 720
       }
