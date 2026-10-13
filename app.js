@@ -21,6 +21,23 @@ function animateElement(element, frames, options = {}) {
 motionPreference.addEventListener('change', () => {
  if (motionPreference.matches) [...runningMotion].forEach(animation => animation.cancel());
 });
+// Opening inspired by the reference: logo reveal, then upward curtain.
+// Once per session; skip deep links, menu, reduced motion, and keyboard interaction.
+(() => {
+ if (!document.querySelector('.hero') || location.hash || location.search || motionPreference.matches) return;
+ try { if (sessionStorage.getItem('sorriso-intro-seen')) return; sessionStorage.setItem('sorriso-intro-seen','1'); } catch (_) { return; }
+ const curtain = document.createElement('div');
+ curtain.className = 'sorriso-intro';
+ curtain.setAttribute('aria-hidden','true');
+ curtain.innerHTML = '<div class="sorriso-intro-inner"><img src="img/logo-sorriso-avorio.png" alt="" width="112" height="112"><strong>Sorriso Bistrot</strong><small>Via Sarnano · Roma</small></div>';
+ document.body.append(curtain);
+ const dismiss = () => { curtain.remove(); document.removeEventListener('keydown',dismiss); document.removeEventListener('pointerdown',dismiss); motionPreference.removeEventListener('change',dismiss); };
+ curtain.addEventListener('animationend',event => { if(event.target === curtain) dismiss(); });
+ document.addEventListener('keydown',dismiss,{once:true});
+ document.addEventListener('pointerdown',dismiss,{once:true});
+ motionPreference.addEventListener('change',dismiss,{once:true});
+ setTimeout(dismiss,1800);
+})();
 const navToggle=document.querySelector('.nav-toggle');
 navToggle?.addEventListener('click',()=>{const on=navToggle.getAttribute('aria-expanded')!=='true';navToggle.setAttribute('aria-expanded',String(on));document.querySelector('#nav').classList.toggle('open',on)});
 document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>{navToggle.setAttribute('aria-expanded','false');document.querySelector('#nav').classList.remove('open')}));
