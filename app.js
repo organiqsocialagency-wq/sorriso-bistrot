@@ -22,10 +22,9 @@ motionPreference.addEventListener('change', () => {
  if (motionPreference.matches) [...runningMotion].forEach(animation => animation.cancel());
 });
 // Opening inspired by the reference: logo reveal, then upward curtain.
-// Once per session; skip deep links, menu, reduced motion, and keyboard interaction.
+// Show on every homepage load, including versioned URLs; preserve direct booking links.
 (() => {
- if (!document.querySelector('.hero') || location.hash || location.search || motionPreference.matches) return;
- try { if (sessionStorage.getItem('sorriso-intro-seen')) return; sessionStorage.setItem('sorriso-intro-seen','1'); } catch (_) { return; }
+ if (!document.querySelector('.hero') || location.hash || new URLSearchParams(location.search).has('servizio') || motionPreference.matches) return;
  const curtain = document.createElement('div');
  curtain.className = 'sorriso-intro';
  curtain.setAttribute('aria-hidden','true');
@@ -379,4 +378,16 @@ if(search){
   card.addEventListener('pointerleave', reset); card.addEventListener('pointercancel', reset);
   motionPreference.addEventListener('change', reset); pointer.addEventListener('change', reset);
  });
+})();
+
+// Brief marker bounce when the location preview enters the viewport.
+(() => {
+ const marker = document.querySelector('.map-marker');
+ if (!marker || motionPreference.matches || !('IntersectionObserver' in window)) return;
+ const observer = new IntersectionObserver(entries => {
+  if (!entries.some(entry => entry.isIntersecting)) return;
+  marker.classList.add('is-arriving');
+  observer.disconnect();
+ }, {threshold: .6});
+ observer.observe(marker);
 })();
