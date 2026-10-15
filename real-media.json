@@ -1,0 +1,103 @@
+{
+  "home/stesura": {
+    "id": "stesura",
+    "name": "Stesura dell’impasto da Sorriso Bistrot",
+    "illustrative": false,
+    "source": "IMG_8359.MOV",
+    "excerpt_start": 24,
+    "excerpt_duration": 20,
+    "video": "videos/stesura-reale.mp4",
+    "variants": [
+      {
+        "src": "img/real/stesura-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "img/real/stesura-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "img/real/stesura-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "home/condimento": {
+    "id": "condimento",
+    "name": "Preparazione della pizza da Sorriso Bistrot",
+    "illustrative": false,
+    "source": "IMG_8361.MOV",
+    "excerpt_start": 8,
+    "excerpt_duration": 30,
+    "video": "videos/condimento-reale.mp4",
+    "variants": [
+      {
+        "src": "img/real/condimento-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "img/real/condimento-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "img/real/condimento-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "home/cottura": {
+    "id": "cottura",
+    "name": "Pizza appena sfornata da Sorriso Bistrot",
+    "illustrative": false,
+    "source": "IMG_8364.MOV",
+    "excerpt_start": 0,
+    "excerpt_duration": 35,
+    "video": "videos/cottura-reale.mp4",
+    "variants": [
+      {
+        "src": "img/real/cottura-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "img/real/cottura-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "img/real/cottura-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "home/fritti": {
+    "id": "fritti",
+    "name": "Un fritto preparato da Sorriso Bistrot",
+    "illustrative": false,
+    "source": "IMG_8366.HEIC",
+    "variants": [
+      {
+        "src": "img/real/fritti-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "img/real/fritti-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "img/real/fritti-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  }
+}

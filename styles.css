@@ -287,3 +287,21 @@
 @keyframes sorriso-pin-shadow{0%,100%{transform:scale(1);opacity:1}40%{transform:scale(.7);opacity:.5}65%{transform:scale(1);opacity:1}}
 @media(max-width:700px){.map-preview{height:320px}.map-preview iframe{height:100%}}
 @media(prefers-reduced-motion:reduce){.map-marker.is-arriving>img,.map-marker.is-arriving .map-marker-shadow{animation:none}.map-preview-link:hover .map-marker>img{transform:none;transition:none}}
+
+/* Real footage loads only on request; navigation stays clear of native controls. */
+.hero .has-real-media .video-controls{position:static;display:flex;margin-top:14px;padding:0 4px;color:var(--brown)}
+.hero .has-real-media .dots button,.hero .has-real-media .rotation{border-color:var(--line);color:var(--brown);background:var(--cream)}
+.hero .has-real-media .dots button.selected{background:var(--brown);color:var(--cream)}
+.hero .has-real-media .video-frame{aspect-ratio:16/9}
+.hero .has-real-media .video-slide video{object-fit:contain;background:#21170f;position:absolute;inset:0}
+.hero .has-real-media .video-caption{bottom:20px;pointer-events:none}
+.hero .has-real-media .video-caption h2{font-size:25px;margin-bottom:6px}
+.hero .has-real-media .video-caption p{font-size:12px;margin-bottom:0}
+.hero-play{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);z-index:3;display:flex;align-items:center;gap:10px;border:1px solid #fbf7f2aa;background:#6b3e26ed;color:#fbf7f2;border-radius:100px;padding:15px 22px;font-size:13px;font-weight:600;min-height:54px;white-space:nowrap}
+.hero-play:hover{background:#512d1c}.hero-play svg{width:24px;height:24px}
+.hero .has-real-media .video-top{pointer-events:none}
+.hero .has-real-media .video-frame:has(.has-video:not([hidden])) .video-top{display:none}
+.hero .has-real-media .video-frame:before{pointer-events:none}
+@media(max-width:600px){.hero .has-real-media .video-top{top:12px;left:15px;right:15px}.hero .has-real-media .video-caption{left:15px;bottom:10px}.hero .has-real-media .video-caption h2{font-size:16px}.hero-play{padding:10px 15px;font-size:11px;min-height:44px}.hero-play svg{width:20px;height:20px}}
+.hero-video-download{position:absolute;top:38%;left:30%;right:30%;z-index:5;text-align:center;padding:15px;background:var(--brown);color:var(--cream);border-radius:10px;font-size:12px}
+.video-slide:has(.hero-video-download)>.hero-play{display:none}

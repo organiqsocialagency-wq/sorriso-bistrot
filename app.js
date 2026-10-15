@@ -40,8 +40,6 @@ motionPreference.addEventListener('change', () => {
 const navToggle=document.querySelector('.nav-toggle');
 navToggle?.addEventListener('click',()=>{const on=navToggle.getAttribute('aria-expanded')!=='true';navToggle.setAttribute('aria-expanded',String(on));document.querySelector('#nav').classList.toggle('open',on)});
 document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>{navToggle.setAttribute('aria-expanded','false');document.querySelector('#nav').classList.remove('open')}));
-// Add the three supplied video files to videos/ and set their URLs here.
-const videoSources=['','',''];
 const slides=[...document.querySelectorAll('[data-slide]')],dots=[...document.querySelectorAll('[data-video]')];
 if (slides.length) {
  let active = 0, paused = motionPreference.matches, timer;
@@ -94,16 +92,23 @@ if (slides.length) {
   slide.inert = i !== active;
   slide.setAttribute('aria-hidden', String(i !== active));
   slide.querySelectorAll('img').forEach(image => { image.draggable = false; });
-  if (videoSources[i]) {
-   document.querySelector('.video-area').classList.remove('awaiting-video');
-   video.src = videoSources[i]; video.hidden = false;
-   slide.querySelector('.video-placeholder').hidden = true;
-   slide.classList.add('has-video');
-   video.addEventListener('play', () => { paused = true; updateButton(); schedule(); });
-   video.addEventListener('error', () => {
+  const playButton = slide.querySelector('.hero-play');
+  if (video.dataset.src && playButton) {
+   const placeholder = slide.querySelector('.video-placeholder');
+   const restorePoster = () => {
     video.hidden = true; slide.classList.remove('has-video');
-    slide.querySelector('.video-placeholder').hidden = false;
+    placeholder.hidden = false; playButton.hidden = false;
+   };
+   playButton.addEventListener('click', () => {
+    paused = true; updateButton(); schedule();
+    if (!video.getAttribute('src')) video.src = video.dataset.src;
+    video.hidden = false; placeholder.hidden = true; playButton.hidden = true;
+    slide.classList.add('has-video');
+    video.play().then(() => video.focus()).catch(restorePoster);
    });
+   video.addEventListener('play', () => { paused = true; updateButton(); schedule(); });
+   video.addEventListener('error', restorePoster);
+   video.addEventListener('ended', () => { video.currentTime = 0; restorePoster(); });
   }
  });
  dots.forEach((dot, i) => dot.addEventListener('click', () => select(i)));
@@ -130,12 +135,12 @@ if (slides.length) {
   if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) select(active + (dx < 0 ? 1 : -1));
  });
  if ('IntersectionObserver' in window) new IntersectionObserver(entries => {
-  onScreen = entries[0].isIntersecting; schedule();
+  onScreen = entries[0].isIntersecting; if (!onScreen) slides.forEach(slide => slide.querySelector('video').pause()); schedule();
  }).observe(frame);
  motionPreference.addEventListener('change', () => {
   if (motionPreference.matches) { paused = true; updateButton(); schedule(); }
  });
- document.addEventListener('visibilitychange', schedule);
+ document.addEventListener('visibilitychange', () => { if (document.hidden) slides.forEach(slide => slide.querySelector('video').pause()); schedule(); });
  updateButton(); schedule();
 }
 const form=document.querySelector('#booking-form');
