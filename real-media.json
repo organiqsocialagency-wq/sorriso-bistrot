@@ -6,20 +6,20 @@
     "source": "IMG_8359.MOV",
     "excerpt_start": 24,
     "excerpt_duration": 20,
-    "video": "videos/stesura-reale.mp4",
+    "video": "videos/stesura-sdr-v2.mp4",
     "variants": [
       {
-        "src": "img/real/stesura-480.webp",
+        "src": "img/real/stesura-sdr-v2-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/stesura-960.webp",
+        "src": "img/real/stesura-sdr-v2-960.webp",
         "width": 960,
         "height": 540
       },
       {
-        "src": "img/real/stesura-1280.webp",
+        "src": "img/real/stesura-sdr-v2-1280.webp",
         "width": 1280,
         "height": 720
       }
@@ -32,20 +32,20 @@
     "source": "IMG_8361.MOV",
     "excerpt_start": 8,
     "excerpt_duration": 30,
-    "video": "videos/condimento-reale.mp4",
+    "video": "videos/condimento-sdr-v2.mp4",
     "variants": [
       {
-        "src": "img/real/condimento-480.webp",
+        "src": "img/real/condimento-sdr-v2-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/condimento-960.webp",
+        "src": "img/real/condimento-sdr-v2-960.webp",
         "width": 960,
         "height": 540
       },
       {
-        "src": "img/real/condimento-1280.webp",
+        "src": "img/real/condimento-sdr-v2-1280.webp",
         "width": 1280,
         "height": 720
       }
@@ -58,20 +58,20 @@
     "source": "IMG_8364.MOV",
     "excerpt_start": 0,
     "excerpt_duration": 35,
-    "video": "videos/cottura-reale.mp4",
+    "video": "videos/cottura-sdr-v2.mp4",
     "variants": [
       {
-        "src": "img/real/cottura-480.webp",
+        "src": "img/real/cottura-sdr-v2-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/cottura-960.webp",
+        "src": "img/real/cottura-sdr-v2-960.webp",
         "width": 960,
         "height": 540
       },
       {
-        "src": "img/real/cottura-1280.webp",
+        "src": "img/real/cottura-sdr-v2-1280.webp",
         "width": 1280,
         "height": 720
       }
@@ -97,6 +97,48 @@
         "src": "img/real/fritti-1280.webp",
         "width": 1280,
         "height": 960
+      }
+    ]
+  },
+  "home/sala": {
+    "id": "sala-via-sarnano",
+    "name": "La sala di Sorriso Bistrot",
+    "illustrative": false,
+    "source": "IMG_6202.mov",
+    "excerpt_start": 0,
+    "excerpt_duration": 2.555,
+    "video": "videos/sala-via-sarnano-sdr-v2.mp4",
+    "variants": [
+      {
+        "src": "img/real/sala-via-sarnano-sdr-v2-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "src": "img/real/sala-via-sarnano-sdr-v2-720.webp",
+        "width": 720,
+        "height": 1280
+      }
+    ]
+  },
+  "home/dough-canapa": {
+    "id": "impasto-canapa-5s",
+    "name": "Impasto con semi di canapa bio italiani",
+    "illustrative": false,
+    "source": "IMG_8326.mov",
+    "excerpt_start": 2,
+    "excerpt_duration": 5,
+    "video": "videos/impasto-canapa-5s-sdr-v2.mp4",
+    "variants": [
+      {
+        "src": "img/real/impasto-canapa-5s-sdr-v2-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "img/real/impasto-canapa-5s-sdr-v2-960.webp",
+        "width": 960,
+        "height": 540
       }
     ]
   }

@@ -72,3 +72,7 @@ python3 build_site.py
 Il popup condiviso è in `components/promotions.html`: Promo Famiglia, martedì/mercoledì/giovedì, sconto 15% per tavoli di almeno 4 persone, da comunicare alla prenotazione. La CTA chiama +39 345 583 4226. Il modulo aggiornamenti raccoglie nome, cognome e una scelta fra email e telefono, con consenso esplicito; prepara un messaggio WhatsApp che l’utente deve inviare. Non esiste un database iscritti e nessun dato è salvato dal sito.
 
 L’ultima serie illustrativa dei fritti comprende 11 immagini, generate con il tool imagegen integrato dalla foto autentica `img/real/fritti-1280.webp`. Originali e prompt sono in `output/imagegen/fritti-reference-v3/`; le varianti ottimizzate hanno suffisso `-v3-` e sono registrate in `image-assets.json`. Non rigenerare questo catalogo dal vecchio manifest di `prepare_images.py`, che contiene le immagini precedenti.
+
+Il 16 ottobre è stata corretta l’esportazione HDR → SDR dei cinque video: la precedente normalizzazione delle alte luci produceva bianchi troppo chiari. I nuovi file `*-sdr-v2.mp4` e le relative copertine provengono dagli originali, con mappatura Hable rivista, segnalazione BT.709 e rimozione dei metadati HDR residui. I percorsi versionati evitano il riutilizzo dei video precedenti in cache. `prepare_real_media.py` ora prepara anche sala e canapa.
+
+La Promo Famiglia include una foto reale estratta dal video della pizza. Il popup chiarisce che ogni mese c’è una nuova promozione e che questa offerta è valida solo martedì, mercoledì e giovedì per un tavolo di almeno quattro persone.
