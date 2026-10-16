@@ -47,13 +47,13 @@ Le recensioni sono brevi estratti attribuiti a Google e riportati da Restaurant 
 
 Movimenti ispirati a Split Text, Scroll Stack, Animated Content, Tilted Card, Carousel e Fade Content di React Bits, riscritti con CSS e Web Animations API per il sito statico. Questi effetti non richiedono librerie esterne; la sezione recensioni usa invece il componente React DriftWall originale, fornito dal cliente e conservato senza modifiche in `components/DriftWall.tsx` e `components/DriftWall.css`. Il titolo entra per parole; gli impasti si sovrappongono durante lo scroll nativo sui desktop con spazio sufficiente; le anteprime della home rispondono al puntatore. Carosello e categorie hanno transizioni brevi; i social mantengono lo scorrimento manuale.
 
-La preferenza di sistema per il movimento ridotto disattiva gli effetti e la rotazione automatica iniziale. Su mobile e schermi bassi gli impasti restano consultabili in sequenza; senza JavaScript testi, foto, prodotti e link rimangono nell’HTML. Il carosello della hero supporta swipe e frecce da tastiera quando ha il focus, e si ferma fuori schermo, durante l’interazione e durante la riproduzione video.
+La preferenza di sistema per il movimento ridotto disattiva gli effetti e la rotazione automatica iniziale. Su mobile e schermi bassi gli impasti restano consultabili in sequenza; senza JavaScript testi, foto, prodotti e link rimangono nell’HTML. La hero usa AccordionGallery con espansione al passaggio del mouse, al tocco e tramite tastiera; la preferenza di movimento ridotto elimina transizioni, inclinazione e parallasse.
 
 ## Materiali reali della home — ottobre 2026
 
 I nuovi scatti e filmati forniti dal locale si trovano nella cartella sorella `Immagini:Video/`. `prepare_real_media.py` conserva gli originali e prepara WebP responsive e MP4 H.264/SDR con fast start. `real-media.json` registra file sorgente e intervalli selezionati; il template unisce questi dati al catalogo delle immagini illustrative.
 
-La hero mostra tre filmati: stesura (IMG_8359), condimento (IMG_8361) e cottura (IMG_8364). I video si caricano al clic, partono silenziati con controlli nativi e si fermano cambiando slide, uscendo dalla hero o nascondendo la scheda. La sezione pizzeria riproduce il filmato reale della sala IMG_6202; L’Originale di Sorriso usa i secondi 15–30 di IMG_8359 (15 secondi totali, senza traccia audio), i semi di zucca usano i secondi 17–27 di IMG_8327 (10 secondi totali, senza traccia audio); la canapa usa un estratto di 5 secondi (da 00:02 a 00:07) di IMG_8326. I quattro video sono silenziati, in loop e si fermano fuori schermo; è disponibile la pausa manuale. La card Pizze è tornata alla Margherita illustrativa, mentre Fritti conserva lo scatto reale del supplì. I dolci mantengono immagini illustrative. Tutti e tre gli impasti mostrano ora filmati reali.
+La hero mostra tre fotografie rielaborate con pizze tonde; i precedenti filmati della hero rimangono archiviati nel repository, ma non vengono caricati in pagina. La sezione pizzeria riproduce il filmato reale della sala IMG_6202; L’Originale di Sorriso usa i secondi 15–30 di IMG_8359 (15 secondi totali, senza traccia audio), i semi di zucca usano i secondi 17–27 di IMG_8327 (10 secondi totali, senza traccia audio); la canapa usa un estratto di 5 secondi (da 00:02 a 00:07) di IMG_8326. I quattro video sono silenziati, in loop e si fermano fuori schermo; è disponibile la pausa manuale. La card Pizze è tornata alla Margherita illustrativa, mentre Fritti conserva lo scatto reale del supplì. I dolci mantengono immagini illustrative. Tutti e tre gli impasti mostrano ora filmati reali.
 
 Per aggiornare i materiali reali: `python3 prepare_real_media.py`, poi `python3 build_site.py`. Non caricare gli originali HEIC/MOV nel repository.
 
@@ -81,3 +81,12 @@ La Promo Famiglia include un’immagine illustrativa generata con il tool imageg
 
 
 Il popup promozioni usa due colonne sui desktop (massimo 1040 px) e una colonna sui dispositivi più stretti. La CTA telefonica “Prenota ora” è arricchita dal componente React Bits StarBorder originale fornito dal cliente, conservato in `components/StarBorder.tsx` e `components/StarBorder.css`. `components/promo.tsx` applica la palette Sorriso; il modulo viene caricato solo alla prima apertura del popup. Il link telefonico statico resta utilizzabile se il modulo dell’animazione non si carica; con movimento ridotto richiesto resta privo di animazione. Compilare con `npm run build:promo` prima di `python3 build_site.py`.
+
+
+## Hero AccordionGallery
+
+`components/AccordionGallery.tsx` e `.css` contengono il componente React Bits fornito dal cliente, con l’animazione GSAP originale. Le integrazioni riguardano pulsanti accessibili, spostamento del focus con le frecce, testi italiani e immagini responsive. `components/hero.tsx` configura la palette Sorriso, conserva i colori delle foto e passa a una colonna espandibile su schermi stretti. Il CSS del sito corregge l’altezza automatica della demo mobile per consentire l’espansione effettiva dei pannelli.
+
+La galleria sostituisce solo i tre video della hero, mantenendo titolo, pulsanti, sala e impasti. Le immagini WebP in `img/hero/` derivano dai tre ritocchi approvati nella conversazione: la pinsa è stata trasformata in pizza tonda. Originali di generazione e prompt sono archiviati localmente in `output/imagegen/pizze-tonde-originali-v1/`. Una galleria HTML statica resta visibile senza JavaScript o se il modulo non si carica. Il movimento ridotto è rispettato anche quando cambia a pagina aperta.
+
+Ricompilare con `npm run build:hero`, quindi `python3 build_site.py`. Il modulo e il suo CSS vengono inclusi solo nella homepage; i relativi URL sono versionati con hash.
