@@ -25,12 +25,28 @@
     "id": "instagram",
     "name": "Instagram",
     "profile": "https://www.instagram.com/sorriso.bistrot/",
-    "videos": []
+    "videos": [
+      {
+        "title": "Sorriso su Instagram · 01",
+        "url": "https://www.instagram.com/reel/DZ7megEsALJ/",
+        "embed": "https://www.instagram.com/reel/DZ7megEsALJ/embed/"
+      },
+      {
+        "title": "Sorriso su Instagram · 02",
+        "url": "https://www.instagram.com/reel/DXbt5GgoIY7/",
+        "embed": "https://www.instagram.com/reel/DXbt5GgoIY7/embed/"
+      },
+      {
+        "title": "Sorriso su Instagram · 03",
+        "url": "https://www.instagram.com/reel/DZkg8kXMN3f/",
+        "embed": "https://www.instagram.com/reel/DZkg8kXMN3f/embed/"
+      }
+    ]
   },
   {
     "id": "facebook",
     "name": "Facebook",
-    "profile": "https://www.facebook.com/share/1Jfurc4e9N/",
+    "profile": "https://www.facebook.com/share/1GpSqf3vuZ/",
     "videos": []
   }
 ]
