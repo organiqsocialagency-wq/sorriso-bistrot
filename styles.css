@@ -305,3 +305,32 @@
 @media(max-width:600px){.hero .has-real-media .video-top{top:12px;left:15px;right:15px}.hero .has-real-media .video-caption{left:15px;bottom:10px}.hero .has-real-media .video-caption h2{font-size:16px}.hero-play{padding:10px 15px;font-size:11px;min-height:44px}.hero-play svg{width:20px;height:20px}}
 .hero-video-download{position:absolute;top:38%;left:30%;right:30%;z-index:5;text-align:center;padding:15px;background:var(--brown);color:var(--cream);border-radius:10px;font-size:12px}
 .video-slide:has(.hero-video-download)>.hero-play{display:none}
+
+#pizzeria>.restaurant-video{position:relative;display:block;margin:0;aspect-ratio:4/5;max-width:480px;justify-self:center;width:100%;padding:0;overflow:hidden;background:#e8d8c6}
+.restaurant-video video{display:block;width:100%;height:100%;object-fit:cover;object-position:center 58%}
+.restaurant-video-toggle,.restaurant-video-link{position:absolute;right:14px;bottom:14px;z-index:2;padding:10px 14px;min-height:44px;border:1px solid #ffffff80;border-radius:8px;background:#6b3e26ed;color:#fbf7f2;font-size:11px;font-weight:600}
+.restaurant-video-toggle:hover{background:#512d1c}
+
+/* Supplied real dough clip, with the existing card proportions. */
+.dough-video{margin:0;display:block}.dough-video video{width:100%;height:100%;object-fit:cover;display:block}
+.dough-video:before,.dough-video:after,.restaurant-video:before,.restaurant-video:after{display:none}
+/* DriftWall is bundled verbatim; only the surrounding section is styled here. */
+#reviews-wall{height:620px;max-width:1400px;margin:auto}#reviews-wall.is-static{height:0}
+#reviews-view{background:transparent;border:0;cursor:pointer;margin:12px auto 28px}
+.reviews-readable{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;width:min(1180px,calc(100% - 40px));margin:auto}
+.reviews-readable .review{width:auto;min-width:0}.reviews-readable blockquote{margin-inline:0}
+@media(max-width:800px){.reviews-readable{grid-template-columns:1fr}#reviews-wall{height:540px}#reviews-wall.is-static{height:0}}
+/* Promotions: notification in navigation and an accessible native modal. */
+.promo-trigger{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--brown);font-size:12px;font-weight:600;white-space:nowrap}
+.promo-badge{display:inline-grid;place-items:center;width:19px;height:19px;border-radius:50%;background:var(--accent);color:white;font-size:11px}.promo-mobile{display:none}
+.header nav{gap:16px}.promo-dialog{width:min(520px,calc(100% - 28px));max-height:calc(100dvh - 40px);padding:42px;border:1px solid var(--line);border-radius:18px;background:var(--cream);color:var(--ink);box-shadow:0 24px 100px #2b160e44;overflow-y:auto}
+.promo-dialog::backdrop{background:#25160db3;backdrop-filter:blur(4px)}body.promo-open{overflow:hidden}
+.promo-close{position:absolute;right:12px;top:10px;width:44px;height:44px;border:0;background:transparent;color:var(--brown);font-size:30px}
+.promo-dialog h2{font-size:38px;margin-bottom:16px}.promo-dialog .eyebrow{margin-bottom:16px}.promo-days{font-size:13px;font-weight:600;color:var(--brown)}
+.promo-discount{font-family:Cinzel,Georgia,serif;font-size:74px;line-height:1.1;color:var(--brown);margin:24px 0}.promo-discount span{display:block;font:20px Montserrat,Arial,sans-serif;margin-top:8px}
+.promo-condition{font-size:12px;color:var(--muted);margin-top:-10px}.promo-updates{border-top:1px solid var(--line);margin-top:28px;padding-top:20px}.promo-updates summary{cursor:pointer;color:var(--brown);font-size:13px;font-weight:600;min-height:44px;padding-block:10px}.promo-updates>p{font-size:12px}
+#promo-form>label{display:block;margin:14px 0;font-size:12px}#promo-form label input:not([type=checkbox]),#promo-form select{display:block;width:100%;min-height:46px;border:1px solid var(--line);background:#fffdf9;border-radius:7px;padding:10px;margin-top:6px;color:var(--ink)}#promo-form .form-grid label{font-size:12px}
+#promo-form .promo-consent{display:flex;gap:10px;align-items:flex-start;line-height:1.6}.promo-consent input{margin-top:4px;width:18px;height:18px;flex-shrink:0;accent-color:var(--brown)}.promo-data{font-size:11px;color:var(--muted)}#promo-status{font-size:12px;margin-top:16px}
+@media(min-width:821px) and (max-width:1200px){.header{flex-wrap:wrap;justify-content:center}.header nav{justify-content:center;flex-wrap:wrap}}
+@media(max-width:820px){.promo-mobile{display:inline-flex;margin-left:auto}.header nav .promo-trigger{display:none}.header{gap:10px}}
+@media(max-width:480px){.header .brand{font-size:14px;gap:7px}.header .brand img{width:34px;height:34px}.header .brand small{font-size:6px}.header{padding-inline:12px;gap:6px}.promo-trigger{font-size:10px;padding:7px}.nav-toggle{padding:8px;font-size:11px}.promo-dialog{padding:34px 24px}.promo-dialog h2{font-size:32px}}

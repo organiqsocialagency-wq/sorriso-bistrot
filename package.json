@@ -1,0 +1,14 @@
+{
+  "name": "sorriso-bistrot",
+  "private": true,
+  "scripts": {
+    "build:reviews": "esbuild components/reviews.tsx --bundle --minify --jsx=automatic --format=esm --target=es2020 --outfile=assets/reviews.js"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11"
+  }
+}

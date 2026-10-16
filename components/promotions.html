@@ -1,0 +1,23 @@
+<dialog id="promo-dialog" class="promo-dialog" aria-labelledby="promo-title">
+ <button type="button" class="promo-close" aria-label="Chiudi promozioni" autofocus>×</button>
+ <p class="eyebrow">LE PROMO DEL MESE</p>
+ <h2 id="promo-title">Promo <em>Famiglia</em></h2>
+ <p class="promo-days">Martedì · Mercoledì · Giovedì</p>
+ <p class="promo-discount">15% <span>di sconto</span></p>
+ <p>Ogni mese, il martedì, il mercoledì e il giovedì, approfitta della Promo Famiglia.</p>
+ <p class="promo-condition">Per un tavolo di almeno 4 persone.</p>
+ <p><strong>Comunica la promo in fase di prenotazione.</strong></p>
+ <a class="button full" href="tel:+393455834226">Prenota ora ↗</a>
+ <details class="promo-updates"><summary>Aggiornami sulle nuove promo</summary>
+  <p>Lascia il tuo contatto e invia la richiesta al locale su WhatsApp.</p>
+  <form id="promo-form">
+   <div class="form-grid"><label>Nome<input name="nome" autocomplete="given-name" maxlength="80" required></label><label>Cognome<input name="cognome" autocomplete="family-name" maxlength="80" required></label></div>
+   <label>Come vuoi ricevere gli aggiornamenti?<select name="canale" id="promo-channel"><option value="email">Via email</option><option value="telefono">Sul telefono</option></select></label>
+   <label id="promo-contact-label">Email<input id="promo-contact" name="contatto" type="email" autocomplete="email" placeholder="nome@esempio.it" maxlength="150" required></label>
+   <label class="promo-consent"><input type="checkbox" name="consenso" required><span>Acconsento a ricevere le promozioni di Sorriso Bistrot al contatto indicato. Posso chiedere di non riceverle più scrivendo al locale.</span></label>
+   <p class="promo-data">Nome e contatto saranno inviati a Sorriso Bistrot su WhatsApp per questa richiesta. Il sito non li salva.</p>
+   <button class="button outline full" type="submit">Prepara la richiesta</button>
+   <p id="promo-status" role="status"></p><a id="promo-send" class="button full" target="_blank" rel="noopener" hidden>Invia su WhatsApp ↗</a>
+  </form>
+ </details>
+</dialog>

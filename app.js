@@ -277,7 +277,6 @@ if(search){
  if ('ResizeObserver' in window) new ResizeObserver(configure).observe(header);
  document.fonts?.ready.then(configure);
  configure();
- const marquee=document.querySelector('.reviews-marquee');if(marquee){const row=marquee.querySelector('.reviews-row'),track=row.querySelector('.reviews-track');const originals=[...track.children];originals.forEach(c=>{const copy=c.cloneNode(true);copy.setAttribute('aria-hidden','true');copy.inert=true;track.append(copy)});const second=row.cloneNode(true);second.setAttribute('aria-hidden','true');second.inert=true;marquee.append(second);document.addEventListener('visibilitychange',()=>{marquee.classList.toggle('page-hidden',document.hidden)})}
 })();
 
 // Accessible social tabs with native horizontal scrolling; all panels remain visible without JS.
@@ -395,4 +394,64 @@ if(search){
   observer.disconnect();
  }, {threshold: .6});
  observer.observe(marker);
+})();
+
+// The supplied room clip loops while visible; a manual pause always persists.
+(() => {
+ document.querySelectorAll('[data-loop-video]').forEach(video => {
+ const button = video.parentElement.querySelector('.restaurant-video-toggle');
+ let visible = false, userPaused = motionPreference.matches;
+ video.muted = true;
+ video.autoplay = !userPaused;
+ button.hidden = false;
+ const label = () => {
+  button.textContent = video.paused ? 'Riproduci video' : 'Metti in pausa';
+  button.setAttribute('aria-label', (video.paused ? 'Riproduci: ' : 'Metti in pausa: ') + video.getAttribute('aria-label'));
+ };
+ function sync() {
+  if (!visible || document.hidden || userPaused || video.closest('[inert]')) { video.pause(); label(); return; }
+  if (!video.getAttribute('src')) video.src = video.dataset.src;
+  video.play().then(label).catch(label);
+ }
+ button.addEventListener('click', () => { userPaused = !video.paused; sync(); });
+ video.addEventListener('play', label);
+ video.addEventListener('pause', label);
+ if ('IntersectionObserver' in window) {
+  new IntersectionObserver(entries => { visible = entries[0].isIntersecting; sync(); }, {threshold:.15}).observe(video);
+ } else { visible = true; sync(); }
+ document.addEventListener('visibilitychange', sync);
+ motionPreference.addEventListener('change', () => { userPaused = motionPreference.matches; video.autoplay = !userPaused; sync(); });
+ const card = video.closest('.dough');
+ if (card) new MutationObserver(sync).observe(card,{attributes:true,attributeFilter:['inert']});
+ label();
+ });
+})();
+
+// Promotion dialog shared by home and menu. No contact is stored by the site.
+(() => {
+ const dialog = document.querySelector('#promo-dialog');
+ if (!dialog) return;
+ let opener;
+ document.querySelectorAll('[data-open-promo]').forEach(button => button.addEventListener('click', () => {
+  opener = button; dialog.showModal(); document.body.classList.add('promo-open');
+ }));
+ dialog.querySelector('.promo-close').addEventListener('click', () => dialog.close());
+ dialog.addEventListener('click', event => {if(event.target === dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
+ dialog.addEventListener('close', () => {document.body.classList.remove('promo-open');opener?.focus();});
+ const form = document.querySelector('#promo-form'), channel = form.elements.canale, contact = form.elements.contatto;
+ const send = document.querySelector('#promo-send'), status = document.querySelector('#promo-status');
+ channel.addEventListener('change', () => {
+  const email = channel.value === 'email';
+  contact.type=email?'email':'tel';contact.autocomplete=email?'email':'tel';contact.placeholder=email?'nome@esempio.it':'+39 333 1234567';
+  document.querySelector('#promo-contact-label').firstChild.textContent=email?'Email':'Telefono';contact.value='';contact.setCustomValidity('');
+ });
+ form.addEventListener('input', () => {send.hidden=true;status.textContent='';contact.setCustomValidity('');});
+ form.addEventListener('submit', event => {
+  event.preventDefault();
+  contact.setCustomValidity(channel.value==='telefono' && !/^\+?[\d\s().-]{7,25}$/.test(contact.value.trim()) ? 'Inserisci un numero di telefono valido.' : '');
+  if(!form.reportValidity())return;
+  const text=`Ciao Sorriso Bistrot! Vorrei ricevere le nuove promozioni.\nNome: ${form.elements.nome.value.trim()}\nCognome: ${form.elements.cognome.value.trim()}\nContatto (${channel.value}): ${contact.value.trim()}\nAcconsento a ricevere le vostre promozioni al contatto indicato. Posso chiedere di non riceverle più scrivendovi.`;
+  send.href='https://wa.me/393455834226?text='+encodeURIComponent(text);send.hidden=false;
+  status.textContent='Richiesta pronta. Apri WhatsApp e inviala al locale per richiedere gli aggiornamenti.';send.focus();
+ });
 })();

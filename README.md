@@ -45,7 +45,7 @@ Le recensioni sono brevi estratti attribuiti a Google e riportati da Restaurant 
 
 ## Animazioni
 
-Movimenti ispirati a Split Text, Scroll Stack, Animated Content, Tilted Card, Carousel e Fade Content di React Bits, riscritti con CSS e Web Animations API per il sito statico. Non richiedono React né librerie esterne. Il titolo entra per parole; gli impasti si sovrappongono durante lo scroll nativo sui desktop con spazio sufficiente; le anteprime della home rispondono al puntatore. Carosello e categorie hanno transizioni brevi; i social mantengono lo scorrimento manuale.
+Movimenti ispirati a Split Text, Scroll Stack, Animated Content, Tilted Card, Carousel e Fade Content di React Bits, riscritti con CSS e Web Animations API per il sito statico. Questi effetti non richiedono librerie esterne; la sezione recensioni usa invece il componente React DriftWall originale, fornito dal cliente e conservato senza modifiche in `components/DriftWall.tsx` e `components/DriftWall.css`. Il titolo entra per parole; gli impasti si sovrappongono durante lo scroll nativo sui desktop con spazio sufficiente; le anteprime della home rispondono al puntatore. Carosello e categorie hanno transizioni brevi; i social mantengono lo scorrimento manuale.
 
 La preferenza di sistema per il movimento ridotto disattiva gli effetti e la rotazione automatica iniziale. Su mobile e schermi bassi gli impasti restano consultabili in sequenza; senza JavaScript testi, foto, prodotti e link rimangono nell’HTML. Il carosello della hero supporta swipe e frecce da tastiera quando ha il focus, e si ferma fuori schermo, durante l’interazione e durante la riproduzione video.
 
@@ -53,6 +53,22 @@ La preferenza di sistema per il movimento ridotto disattiva gli effetti e la rot
 
 I nuovi scatti e filmati forniti dal locale si trovano nella cartella sorella `Immagini:Video/`. `prepare_real_media.py` conserva gli originali e prepara WebP responsive e MP4 H.264/SDR con fast start. `real-media.json` registra file sorgente e intervalli selezionati; il template unisce questi dati al catalogo delle immagini illustrative.
 
-La hero mostra tre filmati: stesura (IMG_8359), condimento (IMG_8361) e cottura (IMG_8364). I video si caricano al clic, partono silenziati con controlli nativi e si fermano cambiando slide, uscendo dalla hero o nascondendo la scheda. Le anteprime pizze e fritti e la foto della sezione pizzeria usano materiali reali. Le foto delle tre ricette d’impasto restano illustrative in attesa dell’identificazione degli scatti; manca una foto reale dei dolci.
+La hero mostra tre filmati: stesura (IMG_8359), condimento (IMG_8361) e cottura (IMG_8364). I video si caricano al clic, partono silenziati con controlli nativi e si fermano cambiando slide, uscendo dalla hero o nascondendo la scheda. La sezione pizzeria riproduce il filmato reale della sala IMG_6202; la canapa usa un estratto di 5 secondi (da 00:02 a 00:07) di IMG_8326. Entrambi sono silenziati, in loop e si fermano fuori schermo; è disponibile la pausa manuale. La card Pizze è tornata alla Margherita illustrativa, mentre Fritti conserva lo scatto reale del supplì. Originale, zucca e dolci mantengono immagini illustrative.
 
 Per aggiornare i materiali reali: `python3 prepare_real_media.py`, poi `python3 build_site.py`. Non caricare gli originali HEIC/MOV nel repository.
+
+## Recensioni DriftWall e promozioni
+
+Dopo modifiche al componente o al suo adattatore:
+
+```sh
+npm ci
+npm run build:reviews
+python3 build_site.py
+```
+
+`assets/reviews.js` e `assets/reviews.css` sono bundle locali già pronti per Pages. `components/reviews.tsx` configura il componente fornito, senza modificarlo; le schede SVG contengono gli stessi tre estratti già pubblicati. La vista testuale è disponibile con “Leggi tutte le recensioni”, senza JavaScript e con movimento ridotto. Le stelle compaiono solo dove la valutazione è documentata.
+
+Il popup condiviso è in `components/promotions.html`: Promo Famiglia, martedì/mercoledì/giovedì, sconto 15% per tavoli di almeno 4 persone, da comunicare alla prenotazione. La CTA chiama +39 345 583 4226. Il modulo aggiornamenti raccoglie nome, cognome e una scelta fra email e telefono, con consenso esplicito; prepara un messaggio WhatsApp che l’utente deve inviare. Non esiste un database iscritti e nessun dato è salvato dal sito.
+
+L’ultima serie illustrativa dei fritti comprende 11 immagini, generate con il tool imagegen integrato dalla foto autentica `img/real/fritti-1280.webp`. Originali e prompt sono in `output/imagegen/fritti-reference-v3/`; le varianti ottimizzate hanno suffisso `-v3-` e sono registrate in `image-assets.json`. Non rigenerare questo catalogo dal vecchio manifest di `prepare_images.py`, che contiene le immagini precedenti.

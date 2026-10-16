@@ -8,3 +8,5 @@ img/hero.jpg
 img/impasto-*.png
 
 output/
+
+node_modules/
