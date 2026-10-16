@@ -288,6 +288,13 @@
 @media(max-width:700px){.map-preview{height:320px}.map-preview iframe{height:100%}}
 @media(prefers-reduced-motion:reduce){.map-marker.is-arriving>img,.map-marker.is-arriving .map-marker-shadow{animation:none}.map-preview-link:hover .map-marker>img{transform:none;transition:none}}
 
+/* Dim local video footage and its covers consistently; leave text/buttons unfiltered. */
+:root{--video-brightness:.82}
+.hero .has-real-media .video-slide video,
+.hero .has-real-media .video-placeholder>img,
+.restaurant-video video,
+.dough-video video{filter:brightness(var(--video-brightness))}
+
 /* Real footage loads only on request; navigation stays clear of native controls. */
 .hero .has-real-media .video-controls{position:static;display:flex;margin-top:14px;padding:0 4px;color:var(--brown)}
 .hero .has-real-media .dots button,.hero .has-real-media .rotation{border-color:var(--line);color:var(--brown);background:var(--cream)}

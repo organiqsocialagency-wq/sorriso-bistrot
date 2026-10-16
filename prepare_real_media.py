@@ -46,5 +46,7 @@ if __name__=='__main__':
   file=Path(tmp)/'fritto.jpg';subprocess.run(['sips','-s','format','jpeg',str(SOURCE/'IMG_8366.HEIC'),'--out',str(file)],stdout=subprocess.DEVNULL,check=True)
   assets['home/fritti']={'id':'fritti','name':'Un fritto preparato da Sorriso Bistrot','illustrative':False,'source':'IMG_8366.HEIC','variants':export_image(Image.open(file),'fritti')}
  assets['home/sala']=export_loop('sala-via-sarnano',Path.home()/'Downloads/IMG_6202.mov',0,2.555,720,'La sala di Sorriso Bistrot')
+ assets['home/dough-originale']=export_loop('impasto-originale-15s',SOURCE/'IMG_8359.MOV',15,15,960,'L’originale di Sorriso preparato nel nostro laboratorio')
+ assets['home/dough-zucca']=export_loop('impasto-semi-zucca-10s',SOURCE/'IMG_8327.mov',17,10,960,'Impasto con semi di zucca tostati preparato da Sorriso Bistrot')
  assets['home/dough-canapa']=export_loop('impasto-canapa-5s',SOURCE/'IMG_8326.mov',2,5,960,'Impasto con semi di canapa bio italiani')
  (ROOT/'real-media.json').write_text(json.dumps(assets,ensure_ascii=False,indent=2)+'\n')
