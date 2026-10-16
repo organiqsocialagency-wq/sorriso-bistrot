@@ -328,9 +328,15 @@
 .promo-close{position:absolute;right:12px;top:10px;width:44px;height:44px;border:0;background:transparent;color:var(--brown);font-size:30px}
 .promo-dialog h2{font-size:38px;margin-bottom:16px}.promo-dialog .eyebrow{margin-bottom:16px}.promo-days{font-size:13px;font-weight:600;color:var(--brown)}
 .promo-discount{font-family:Cinzel,Georgia,serif;font-size:74px;line-height:1.1;color:var(--brown);margin:24px 0}.promo-discount span{display:block;font:20px Montserrat,Arial,sans-serif;margin-top:8px}
-.promo-condition{font-size:12px;color:var(--muted);margin-top:-10px}.promo-updates{border-top:1px solid var(--line);margin-top:28px;padding-top:20px}.promo-updates summary{cursor:pointer;color:var(--brown);font-size:13px;font-weight:600;min-height:44px;padding-block:10px}.promo-updates>p{font-size:12px}
+.promo-condition{font-size:12px;color:var(--muted);margin-top:-10px}
+.promo-updates-cta{margin-top:22px;gap:10px}
+.promo-back{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin:0 0 16px;padding:0 8px 0 0;background:transparent;border:0;color:var(--brown);font-size:12px;font-weight:600}
+.promo-back:hover{text-decoration:underline;text-underline-offset:4px}
+.promo-updates>.eyebrow{display:flex;align-items:center;justify-content:space-between;font-size:10px}
+.promo-step{letter-spacing:0;font-size:12px;color:var(--muted)}
+.promo-updates>p{font-size:13px}
 #promo-form>label{display:block;margin:14px 0;font-size:12px}#promo-form label input:not([type=checkbox]),#promo-form select{display:block;width:100%;min-height:46px;border:1px solid var(--line);background:#fffdf9;border-radius:7px;padding:10px;margin-top:6px;color:var(--ink)}#promo-form .form-grid label{font-size:12px}
-#promo-form .promo-consent{display:flex;gap:10px;align-items:flex-start;line-height:1.6}.promo-consent input{margin-top:4px;width:18px;height:18px;flex-shrink:0;accent-color:var(--brown)}.promo-data{font-size:11px;color:var(--muted)}#promo-status{font-size:12px;margin-top:16px}
+#promo-form .promo-consent{display:flex;flex-direction:row;gap:10px;align-items:flex-start;line-height:1.6;font-weight:400}.promo-consent input{margin-top:4px;width:18px;height:18px;flex-shrink:0;accent-color:var(--brown)}.promo-data{font-size:11px;color:var(--muted)}#promo-status{font-size:12px;margin-top:16px}
 @media(min-width:821px) and (max-width:1200px){.header{flex-wrap:wrap;justify-content:center}.header nav{justify-content:center;flex-wrap:wrap}}
 @media(max-width:820px){.promo-mobile{display:inline-flex;margin-left:auto}.header nav .promo-trigger{display:none}.header{gap:10px}}
 @media(max-width:480px){.header .brand{font-size:14px;gap:7px}.header .brand img{width:34px;height:34px}.header .brand small{font-size:6px}.header{padding-inline:12px;gap:6px}.promo-trigger{font-size:10px;padding:7px}.nav-toggle{padding:8px;font-size:11px}.promo-dialog{padding:34px 24px}.promo-dialog h2{font-size:32px}}
@@ -352,5 +358,5 @@
 .promo-example .promo-saving{font-size:12px;line-height:1.5;margin:12px 0 0}
 .promo-condition{font-size:12px;line-height:1.7;color:var(--brown);margin:0 0 18px}
 .promo-condition strong{display:block}
-@media(max-width:480px){.promo-dialog .promo-condition+p{font-size:13px}.promo-dialog .promo-updates{margin-top:20px;padding-top:12px}}
+@media(max-width:480px){.promo-dialog .promo-condition+p{font-size:13px}.promo-dialog .promo-updates-cta{margin-top:18px}}
 @media(max-width:360px){.promo-example{padding:14px 12px}.promo-price-comparison{gap:8px}.promo-price-before s{font-size:20px}.promo-price-after strong{font-size:27px}}

@@ -432,8 +432,29 @@ if(search){
  const dialog = document.querySelector('#promo-dialog');
  if (!dialog) return;
  let opener;
+ const offer = dialog.querySelector('#promo-offer'), updates = dialog.querySelector('#promo-updates');
+ const next = dialog.querySelector('#promo-next'), back = dialog.querySelector('#promo-back');
+ const updatesTitle = dialog.querySelector('#promo-updates-title');
+ const showUpdates = (active, moveFocus = true) => {
+  offer.hidden = active;
+  updates.hidden = !active;
+  dialog.setAttribute('aria-labelledby', active ? 'promo-updates-title' : 'promo-title');
+  dialog.scrollTop = 0;
+  if (!moveFocus) return;
+  if (active) updatesTitle.focus({preventScroll:true});
+  else {
+   next.focus({preventScroll:true});
+   next.scrollIntoView({block:'nearest',behavior:'instant'});
+  }
+ };
+ next.addEventListener('click', () => showUpdates(true));
+ back.addEventListener('click', () => showUpdates(false));
  document.querySelectorAll('[data-open-promo]').forEach(button => button.addEventListener('click', () => {
-  opener = button; dialog.showModal(); document.body.classList.add('promo-open');
+  opener = button;
+  showUpdates(false, false);
+  dialog.showModal();
+  dialog.scrollTop = 0;
+  document.body.classList.add('promo-open');
  }));
  dialog.querySelector('.promo-close').addEventListener('click', () => dialog.close());
  dialog.addEventListener('click', event => {if(event.target === dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});

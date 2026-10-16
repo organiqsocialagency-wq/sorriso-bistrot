@@ -1,5 +1,6 @@
 <dialog id="promo-dialog" class="promo-dialog" aria-labelledby="promo-title">
  <button type="button" class="promo-close" aria-label="Chiudi promozioni" autofocus>×</button>
+ <div id="promo-offer">
  <p class="eyebrow">LE PROMO DEL MESE</p>
  <h2 id="promo-title">Promo <em>Famiglia</em></h2>
  <p class="promo-intro">Ogni mese: il martedì, il mercoledì e il giovedì, c’è una nuova promozione.</p>
@@ -19,7 +20,12 @@
  <p class="promo-condition">Valida solo il <strong>Martedì · Mercoledì · Giovedì<br>Per un tavolo di almeno 4 persone.</strong></p>
  <p><strong>Comunica la promo in fase di prenotazione.</strong></p>
  <a class="button full" href="tel:+393455834226">Prenota ora ↗</a>
- <details class="promo-updates"><summary>Aggiornami sulle nuove promo</summary>
+ <button type="button" id="promo-next" class="button outline full promo-updates-cta" aria-controls="promo-updates">Aggiornami sulle nuove promo <span aria-hidden="true">→</span></button>
+ </div>
+ <section id="promo-updates" class="promo-updates" aria-labelledby="promo-updates-title" hidden>
+  <button type="button" id="promo-back" class="promo-back" aria-controls="promo-offer"><span aria-hidden="true">←</span> Torna alla promo</button>
+  <p class="eyebrow">AGGIORNAMENTI <span class="promo-step" aria-label="Passaggio 2 di 2">2/2</span></p>
+  <h2 id="promo-updates-title" tabindex="-1">Ricevi le <em>nuove promo</em></h2>
   <p>Lascia il tuo contatto e invia la richiesta al locale su WhatsApp.</p>
   <form id="promo-form">
    <div class="form-grid"><label>Nome<input name="nome" autocomplete="given-name" maxlength="80" required></label><label>Cognome<input name="cognome" autocomplete="family-name" maxlength="80" required></label></div>
@@ -30,5 +36,5 @@
    <button class="button outline full" type="submit">Prepara la richiesta</button>
    <p id="promo-status" role="status"></p><a id="promo-send" class="button full" target="_blank" rel="noopener" hidden>Invia su WhatsApp ↗</a>
   </form>
- </details>
+ </section>
 </dialog>
