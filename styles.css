@@ -334,3 +334,4 @@
 @media(min-width:821px) and (max-width:1200px){.header{flex-wrap:wrap;justify-content:center}.header nav{justify-content:center;flex-wrap:wrap}}
 @media(max-width:820px){.promo-mobile{display:inline-flex;margin-left:auto}.header nav .promo-trigger{display:none}.header{gap:10px}}
 @media(max-width:480px){.header .brand{font-size:14px;gap:7px}.header .brand img{width:34px;height:34px}.header .brand small{font-size:6px}.header{padding-inline:12px;gap:6px}.promo-trigger{font-size:10px;padding:7px}.nav-toggle{padding:8px;font-size:11px}.promo-dialog{padding:34px 24px}.promo-dialog h2{font-size:32px}}
+@media(max-width:360px){.header{justify-content:center}.header .brand{width:100%;justify-content:center}.promo-mobile{margin-left:0}}
