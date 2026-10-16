@@ -4,22 +4,23 @@
     "name": "Stesura dell’impasto da Sorriso Bistrot",
     "illustrative": false,
     "source": "IMG_8359.MOV",
+    "color_profile": "perceptual-sdr-v3",
     "excerpt_start": 24,
     "excerpt_duration": 20,
-    "video": "videos/stesura-sdr-v2.mp4",
+    "video": "videos/stesura-sdr-v3.mp4",
     "variants": [
       {
-        "src": "img/real/stesura-sdr-v2-480.webp",
+        "src": "img/real/stesura-sdr-v3-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/stesura-sdr-v2-960.webp",
+        "src": "img/real/stesura-sdr-v3-960.webp",
         "width": 960,
         "height": 540
       },
       {
-        "src": "img/real/stesura-sdr-v2-1280.webp",
+        "src": "img/real/stesura-sdr-v3-1280.webp",
         "width": 1280,
         "height": 720
       }
@@ -30,22 +31,23 @@
     "name": "Preparazione della pizza da Sorriso Bistrot",
     "illustrative": false,
     "source": "IMG_8361.MOV",
+    "color_profile": "perceptual-sdr-v3",
     "excerpt_start": 8,
     "excerpt_duration": 30,
-    "video": "videos/condimento-sdr-v2.mp4",
+    "video": "videos/condimento-sdr-v3.mp4",
     "variants": [
       {
-        "src": "img/real/condimento-sdr-v2-480.webp",
+        "src": "img/real/condimento-sdr-v3-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/condimento-sdr-v2-960.webp",
+        "src": "img/real/condimento-sdr-v3-960.webp",
         "width": 960,
         "height": 540
       },
       {
-        "src": "img/real/condimento-sdr-v2-1280.webp",
+        "src": "img/real/condimento-sdr-v3-1280.webp",
         "width": 1280,
         "height": 720
       }
@@ -56,22 +58,23 @@
     "name": "Pizza appena sfornata da Sorriso Bistrot",
     "illustrative": false,
     "source": "IMG_8364.MOV",
+    "color_profile": "perceptual-sdr-v3",
     "excerpt_start": 0,
     "excerpt_duration": 35,
-    "video": "videos/cottura-sdr-v2.mp4",
+    "video": "videos/cottura-sdr-v3.mp4",
     "variants": [
       {
-        "src": "img/real/cottura-sdr-v2-480.webp",
+        "src": "img/real/cottura-sdr-v3-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/cottura-sdr-v2-960.webp",
+        "src": "img/real/cottura-sdr-v3-960.webp",
         "width": 960,
         "height": 540
       },
       {
-        "src": "img/real/cottura-sdr-v2-1280.webp",
+        "src": "img/real/cottura-sdr-v3-1280.webp",
         "width": 1280,
         "height": 720
       }
@@ -105,40 +108,20 @@
     "name": "La sala di Sorriso Bistrot",
     "illustrative": false,
     "source": "IMG_6202.mov",
+    "color_profile": "perceptual-sdr-v3",
     "excerpt_start": 0,
     "excerpt_duration": 2.555,
-    "video": "videos/sala-via-sarnano-sdr-v2.mp4",
+    "video": "videos/sala-via-sarnano-sdr-v3.mp4",
     "variants": [
       {
-        "src": "img/real/sala-via-sarnano-sdr-v2-480.webp",
+        "src": "img/real/sala-via-sarnano-sdr-v3-480.webp",
         "width": 480,
         "height": 853
       },
       {
-        "src": "img/real/sala-via-sarnano-sdr-v2-720.webp",
+        "src": "img/real/sala-via-sarnano-sdr-v3-720.webp",
         "width": 720,
         "height": 1280
-      }
-    ]
-  },
-  "home/dough-canapa": {
-    "id": "impasto-canapa-5s",
-    "name": "Impasto con semi di canapa bio italiani",
-    "illustrative": false,
-    "source": "IMG_8326.mov",
-    "excerpt_start": 2,
-    "excerpt_duration": 5,
-    "video": "videos/impasto-canapa-5s-sdr-v2.mp4",
-    "variants": [
-      {
-        "src": "img/real/impasto-canapa-5s-sdr-v2-480.webp",
-        "width": 480,
-        "height": 270
-      },
-      {
-        "src": "img/real/impasto-canapa-5s-sdr-v2-960.webp",
-        "width": 960,
-        "height": 540
       }
     ]
   },
@@ -147,17 +130,18 @@
     "name": "L’originale di Sorriso preparato nel nostro laboratorio",
     "illustrative": false,
     "source": "IMG_8359.MOV",
+    "color_profile": "perceptual-sdr-v3",
     "excerpt_start": 15,
     "excerpt_duration": 15,
-    "video": "videos/impasto-originale-15s-sdr-v2.mp4",
+    "video": "videos/impasto-originale-15s-sdr-v3.mp4",
     "variants": [
       {
-        "src": "img/real/impasto-originale-15s-sdr-v2-480.webp",
+        "src": "img/real/impasto-originale-15s-sdr-v3-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/impasto-originale-15s-sdr-v2-960.webp",
+        "src": "img/real/impasto-originale-15s-sdr-v3-960.webp",
         "width": 960,
         "height": 540
       }
@@ -168,17 +152,40 @@
     "name": "Impasto con semi di zucca tostati preparato da Sorriso Bistrot",
     "illustrative": false,
     "source": "IMG_8327.mov",
+    "color_profile": "perceptual-sdr-v3",
     "excerpt_start": 17,
     "excerpt_duration": 10,
-    "video": "videos/impasto-semi-zucca-10s-sdr-v2.mp4",
+    "video": "videos/impasto-semi-zucca-10s-sdr-v3.mp4",
     "variants": [
       {
-        "src": "img/real/impasto-semi-zucca-10s-sdr-v2-480.webp",
+        "src": "img/real/impasto-semi-zucca-10s-sdr-v3-480.webp",
         "width": 480,
         "height": 270
       },
       {
-        "src": "img/real/impasto-semi-zucca-10s-sdr-v2-960.webp",
+        "src": "img/real/impasto-semi-zucca-10s-sdr-v3-960.webp",
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  "home/dough-canapa": {
+    "id": "impasto-canapa-5s",
+    "name": "Impasto con semi di canapa bio italiani",
+    "illustrative": false,
+    "source": "IMG_8326.mov",
+    "color_profile": "perceptual-sdr-v3",
+    "excerpt_start": 2,
+    "excerpt_duration": 5,
+    "video": "videos/impasto-canapa-5s-sdr-v3.mp4",
+    "variants": [
+      {
+        "src": "img/real/impasto-canapa-5s-sdr-v3-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "img/real/impasto-canapa-5s-sdr-v3-960.webp",
         "width": 960,
         "height": 540
       }
