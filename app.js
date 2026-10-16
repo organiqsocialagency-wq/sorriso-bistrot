@@ -438,6 +438,13 @@ if(search){
  const dialog = document.querySelector('#promo-dialog');
  if (!dialog) return;
  let opener;
+ const starHost = dialog.querySelector('[data-promo-star-module]');
+ let starModule;
+ const enhanceBooking = () => {
+  if (!starHost || starHost.dataset.starReady) return;
+  starModule ??= import(starHost.dataset.promoStarModule);
+  starModule.then(module => module.mountPromoStar(starHost)).catch(() => {starModule = null;});
+ };
  const offer = dialog.querySelector('#promo-offer'), updates = dialog.querySelector('#promo-updates');
  const next = dialog.querySelector('#promo-next'), back = dialog.querySelector('#promo-back');
  const updatesTitle = dialog.querySelector('#promo-updates-title');
@@ -459,6 +466,7 @@ if(search){
   opener = button;
   showUpdates(false, false);
   dialog.showModal();
+  enhanceBooking();
   dialog.scrollTop = 0;
   document.body.classList.add('promo-open');
  }));

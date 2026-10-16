@@ -1,11 +1,14 @@
 <dialog id="promo-dialog" class="promo-dialog" aria-labelledby="promo-title">
  <button type="button" class="promo-close" aria-label="Chiudi promozioni" autofocus>×</button>
  <div id="promo-offer">
+ <div class="promo-offer-heading">
  <p class="eyebrow">LE PROMO DEL MESE</p>
  <h2 id="promo-title">Promo <em>Famiglia</em></h2>
  <p class="promo-intro">Ogni mese: il martedì, il mercoledì e il giovedì, c’è una nuova promozione.</p>
+ </div>
+ <div class="promo-offer-media">
  <figure class="promo-visual">
-  <img src="img/generated/promo-famiglia-v2-960.webp" srcset="img/generated/promo-famiglia-v2-480.webp 480w, img/generated/promo-famiglia-v2-960.webp 960w" sizes="(max-width: 480px) calc(100vw - 78px), 434px" width="960" height="640" alt="Una famiglia di quattro persone mangia la pizza. Sorriso Bistrot, Promo Famiglia: 15% di sconto il martedì, mercoledì e giovedì, per tavoli da almeno 4 persone." loading="lazy">
+  <img src="img/generated/promo-famiglia-v2-960.webp" srcset="img/generated/promo-famiglia-v2-480.webp 480w, img/generated/promo-famiglia-v2-960.webp 960w" sizes="(max-width: 480px) calc(100vw - 66px), (max-width: 664px) calc(100vw - 94px), (max-width: 859px) 570px, 485px" width="960" height="640" alt="Una famiglia di quattro persone mangia la pizza. Sorriso Bistrot, Promo Famiglia: 15% di sconto il martedì, mercoledì e giovedì, per tavoli da almeno 4 persone." loading="lazy">
   <figcaption>Immagine illustrativa</figcaption>
  </figure>
  <div class="promo-example" aria-labelledby="promo-example-title">
@@ -17,10 +20,15 @@
   </div>
   <p class="promo-saving">Risparmi <strong>13,50 €</strong> sul totale.</p>
  </div>
+ </div>
+ <div class="promo-offer-details">
  <p class="promo-condition">Valida solo il <strong>Martedì · Mercoledì · Giovedì<br>Per un tavolo di almeno 4 persone.</strong></p>
  <p><strong>Comunica la promo in fase di prenotazione.</strong></p>
+ <div class="promo-booking" data-promo-star-module="{{PROMO_STAR_MODULE}}">
  <a class="button full" href="tel:+393455834226">Prenota ora ↗</a>
+ </div>
  <button type="button" id="promo-next" class="button outline full promo-updates-cta" aria-controls="promo-updates">Aggiornami sulle nuove promo <span aria-hidden="true">→</span></button>
+ </div>
  </div>
  <section id="promo-updates" class="promo-updates" aria-labelledby="promo-updates-title" hidden>
   <button type="button" id="promo-back" class="promo-back" aria-controls="promo-offer"><span aria-hidden="true">←</span> Torna alla promo</button>
