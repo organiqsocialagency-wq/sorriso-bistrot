@@ -11,16 +11,35 @@
 @media(max-width:600px){.wrap{width:calc(100% - 40px)}.header{padding:12px 20px}.brand{font-size:17px}.brand small{font-size:7px;letter-spacing:1.3px}.brand img{width:42px;height:42px}.hero{grid-template-columns:1fr;padding-block:38px 40px;gap:35px}.hero h1{font-size:42px;line-height:1.17;letter-spacing:-1.3px}.hero .eyebrow{font-size:8px;letter-spacing:1.5px}.hero .lead{font-size:14px}.hero .actions{gap:10px}.hero .button{font-size:11px;flex:1;padding:13px 9px}.hero-notes{font-size:9px;gap:12px}.video-area{width:100%;max-width:420px;margin:auto}.video-frame{height:420px;box-shadow:8px 8px 0 var(--beige)}.video-top{top:60px;left:30px;right:30px}.handwritten{font-size:17px;margin-top:23px}.ribbon{gap:15px;padding:20px 10px}.ribbon b{font-size:12px}.ribbon i{font-size:13px}.split,.menu-intro{grid-template-columns:1fr;gap:32px}.section{padding-block:60px}.restaurant-photo{aspect-ratio:1.3}.section-head{margin-bottom:30px}h2{font-size:30px}body{font-size:14px}.three-grid{grid-template-columns:1fr;gap:22px}.dough-picture .placeholder{aspect-ratio:1.9}.dough-copy{padding:25px}.dough-copy p:not(.eyebrow){min-height:0}.dough-copy li{font-size:12px}.dough-copy h3{font-size:30px}.menu-intro{margin-bottom:35px}.menu-teasers{gap:30px}.teaser .placeholder{aspect-ratio:1.65}.review{padding:28px}blockquote{font-size:22px;min-height:0;margin-bottom:25px}.review-author b{font-size:12px}.review-author small{font-size:10px}.compare-row{grid-template-columns:1fr 1fr}.compare-row>strong{grid-column:1/-1;background:#f2e8dc66;padding:14px 18px}.compare-row>*{padding:18px;font-size:11px}.compare-head{grid-template-columns:1fr 1fr}.compare-head>:first-child{display:none}.compare-head>:last-child{background:var(--brown);color:var(--cream)}.compare-row>p:last-child{display:block}.compare-row>p:last-child svg{display:block;margin-bottom:9px}.booking-form{padding:22px}.form-grid{gap:13px}.booking .split{gap:25px}.location-photo{aspect-ratio:1.3}.faq{padding-bottom:60px}.faq summary{font-size:12px;padding-right:10px}.footer-grid{grid-template-columns:1fr;gap:25px}.foot-bottom{display:block;padding-bottom:95px}.foot-bottom span{display:block;margin-top:8px}.mobile-actions{position:fixed;bottom:0;left:0;right:0;z-index:30;display:grid;grid-template-columns:1fr 1fr;background:var(--cream);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));gap:10px}.mobile-actions a{padding:12px 7px;background:var(--brown);color:var(--cream);font-size:11px;text-align:center;border-radius:7px;border:1px solid var(--brown);font-weight:600}.mobile-actions a:last-child{background:transparent;color:var(--brown)}.menu-page-head{padding-top:40px}.menu-page-head h1{font-size:35px}.menu-page-head p{font-size:13px}.catalog-tools{grid-template-columns:1fr 1fr;padding:18px}.catalog-tools>label:first-child{grid-column:1/-1}.product-grid{grid-template-columns:1fr}.product .placeholder{aspect-ratio:1.9}.product h3{font-size:23px}.category-heading h2{font-size:26px}.product-price b{font-size:20px}.product-price span{font-size:11px}.menu-notes{padding-bottom:60px}.placeholder span{font-size:17px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 
-/* Shared pickup and delivery options on the homepage and menu. */
-.order-options{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding-block:45px;border-bottom:1px solid var(--line)}
-.order-options article{padding:30px;border:1px solid var(--line);border-radius:12px;background:var(--beige)}
-.order-options article:last-child{background:var(--cream)}
-.order-options h2{font-size:27px;letter-spacing:-.4px;margin-bottom:15px}
-.order-options .eyebrow{margin-bottom:14px}
-.order-options p:not(.eyebrow):not(.fine){font-size:13px;max-width:450px}
-.order-options .fine{margin-bottom:0}
-.order-options .button{font-size:12px;padding-inline:18px}
-@media(max-width:820px){.order-options{grid-template-columns:1fr;gap:18px}.order-options article{padding:25px}}
+/* Shared ordering cards: selected brown/ivory variant with menu illustrations. */
+.order-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding-block:45px;border-bottom:1px solid var(--line)}
+.order-card{display:flex;min-width:0;min-height:414px;border:1px solid #bda18b;border-radius:12px;overflow:hidden;background:var(--cream);color:var(--brown)}
+.order-brand-rail{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;align-items:center;flex:0 0 80px;width:80px;padding-top:24px;border-right:1px solid #cfb9a4;background:#eaddcc}
+.order-brand-rail:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:url('img/ordering-ornaments-v1.webp') left center / 520px auto no-repeat;opacity:.23}
+.order-brand-rail img{width:58px;height:58px;object-fit:contain;flex-shrink:0}
+.order-brand-rail>span{writing-mode:vertical-rl;transform:rotate(180deg);font-family:Cinzel,Georgia,serif;font-size:12px;letter-spacing:4px;margin-top:auto;margin-bottom:26px;padding-top:24px}
+.order-card-content{display:flex;flex-direction:column;flex:1;min-width:0;padding:30px 25px}
+.order-service-icon{display:flex;align-items:center;height:38px;margin-bottom:25px}
+.order-service-icon svg{width:30px;height:30px}.order-service-icon .order-scooter{width:40px;height:32px}
+.order-options .eyebrow{font-size:9px;letter-spacing:1.8px;margin-bottom:9px}
+.order-options h2{font-size:26px;letter-spacing:-.65px;line-height:1.25;margin-bottom:14px}
+.order-options .order-copy{font-size:13px;line-height:1.85;color:var(--ink);margin-bottom:25px}
+.order-card-actions{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;margin-top:auto}
+.order-options .button{width:100%;min-height:54px;gap:10px;padding:12px 14px;text-align:center;font-size:13px;line-height:1.5}
+.order-action-label{flex:1;min-width:0}.order-arrow{margin-left:auto;font-size:17px;font-weight:400;flex-shrink:0}
+.order-options .delivery-icon{width:26px;height:26px;object-fit:contain;flex-shrink:0}
+.order-delivery{background:var(--brown);border-color:var(--brown);color:var(--cream)}
+.order-delivery .order-brand-rail{background:#522d1b;border-color:#8f6248}
+.order-delivery .order-brand-rail:before{filter:grayscale(1) invert(1);mix-blend-mode:screen;opacity:.48}
+.order-delivery h2,.order-delivery .eyebrow{color:var(--cream)}.order-delivery .order-copy{color:var(--beige)}
+.order-delivery .button{background:var(--cream);color:var(--brown);border-color:var(--cream)}
+.order-delivery .button:hover{background:var(--beige)}
+.order-delivery .button.outline{background:transparent;color:var(--cream);border-color:#ae8a72}
+.order-delivery .button.outline:hover{background:#7a4930}
+.order-delivery .button:focus-visible{outline-color:var(--cream)}
+@media(min-width:821px) and (max-width:1050px){.order-options{gap:18px}.order-brand-rail{flex-basis:64px;width:64px}.order-brand-rail img{width:48px;height:48px}.order-card-content{padding:25px 18px}.order-options h2{font-size:23px}.order-options .order-copy{font-size:12px}.order-options .button{font-size:12px;padding-inline:10px}}
+@media(max-width:820px){.order-options{grid-template-columns:minmax(0,1fr);gap:18px}.order-card{min-height:370px}}
+@media(max-width:480px){.order-brand-rail{flex-basis:54px;width:54px}.order-brand-rail img{width:43px;height:43px}.order-brand-rail>span{font-size:10px;letter-spacing:3px}.order-card-content{padding:24px 18px}.order-options h2{font-size:23px}.order-options .order-copy{font-size:12px}.order-options .button{font-size:11px;padding:12px 10px;gap:8px}.order-options .delivery-icon{width:23px;height:23px}.order-options .eyebrow{font-size:8px;letter-spacing:1.5px}}
 
 /* Reference layout: centered hero, wide media, scroll-led story, dual review rails. */
 .scroll-progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:50;width:0;pointer-events:none}
@@ -61,14 +80,6 @@
   input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="button"]),textarea,[contenteditable="true"]{cursor:text}
   :disabled,[aria-disabled="true"]{cursor:not-allowed}
 }
-
-/* Full-width ordering actions anchored below the card copy. */
-.order-options article{display:flex;flex-direction:column;align-items:stretch}
-.order-options article>.button,.order-options article>.actions{margin-top:auto;width:100%}
-.order-options .actions{display:grid;grid-template-columns:1fr;gap:12px;justify-content:stretch}
-.order-options .button{width:100%;min-height:56px;justify-content:center;gap:12px;font-size:14px;padding:14px 18px;text-align:center}
-.order-options .delivery-icon{width:26px;height:26px;object-fit:contain;flex-shrink:0}
-.order-options .button:not(.outline) .delivery-icon{filter:brightness(0) invert(1)}
 
 .compare-cross{display:inline-flex;align-items:center;justify-content:center;width:22px;height:24px;flex-shrink:0;color:var(--red);font-size:26px;line-height:1}
 .compare-before .compare-list{gap:28px}
