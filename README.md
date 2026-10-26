@@ -90,3 +90,24 @@ Il popup promozioni usa due colonne sui desktop (massimo 1040 px) e una colonna 
 La galleria sostituisce solo i tre video della hero, mantenendo titolo, pulsanti, sala e impasti. Le immagini WebP in `img/hero/` derivano dai tre ritocchi approvati nella conversazione: la pinsa è stata trasformata in pizza tonda. Originali di generazione e prompt sono archiviati localmente in `output/imagegen/pizze-tonde-originali-v1/`. Una galleria HTML statica resta visibile senza JavaScript o se il modulo non si carica. Il movimento ridotto è rispettato anche quando cambia a pagina aperta.
 
 Ricompilare con `npm run build:hero`, quindi `python3 build_site.py`. Il modulo e il suo CSS vengono inclusi solo nella homepage; i relativi URL sono versionati con hash.
+
+
+## Dominio sorrisobistrot.it
+
+La configurazione per il dominio è nel file `CNAME`. `SITE_URL` in `build_site.py` determina canonical, Open Graph, URL strutturati, sitemap e robots. Dopo una modifica al dominio eseguire `python3 build_site.py`.
+
+La pubblicazione GitHub Pages usa il ramo `main`, cartella `/`. La configurazione DNS rimane presso Register.it. Per attivare il dominio, configurare prima `sorrisobistrot.it` su GitHub Pages e poi applicare questi record in **Dominio & DNS → Configurazione DNS → Modifica zone DNS**:
+
+| Tipo | Nome | Valore |
+| --- | --- | --- |
+| A | sorrisobistrot.it | 185.199.108.153 |
+| A | sorrisobistrot.it | 185.199.109.153 |
+| A | sorrisobistrot.it | 185.199.110.153 |
+| A | sorrisobistrot.it | 185.199.111.153 |
+| CNAME | www.sorrisobistrot.it | organiqsocialagency-wq.github.io |
+
+I quattro record A sostituiscono il puntamento precedente a `195.110.124.133`. Il CNAME `www` sostituisce quello che puntava a `sorrisobistrot.it`. Conservare nameserver e record email esistenti: il record MX rilevato il 26 ottobre 2026 è `10 mail.register.it`. Al momento della verifica non erano presenti record AAAA o CAA.
+
+Dopo il cambio DNS verificare homepage, menù, media, redirect da `www` e dal precedente indirizzo GitHub Pages. Abilitare **Enforce HTTPS** appena GitHub ha emesso il certificato. La presenza del file CNAME da sola non conferma che il dominio sia operativo.
+
+Riferimenti: [GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), [gestione DNS Register.it](https://www.register.it/assistenza/cambiare-dns/).
