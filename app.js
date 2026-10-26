@@ -28,7 +28,7 @@ motionPreference.addEventListener('change', () => {
  const curtain = document.createElement('div');
  curtain.className = 'sorriso-intro';
  curtain.setAttribute('aria-hidden','true');
- curtain.innerHTML = '<div class="sorriso-intro-inner"><img src="img/logo-sorriso-avorio.png" alt="" width="112" height="112"><strong>Sorriso Bistrot</strong><small>Via Sarnano · Roma</small></div>';
+ curtain.innerHTML = '<div class="sorriso-intro-inner"><img src="img/logo-sorriso-avorio-web.webp" alt="" width="112" height="112"><strong>Sorriso Bistrot</strong><small>Via Sarnano · Roma</small></div>';
  document.body.append(curtain);
  const dismiss = () => { curtain.remove(); document.removeEventListener('keydown',dismiss); document.removeEventListener('pointerdown',dismiss); motionPreference.removeEventListener('change',dismiss); };
  curtain.addEventListener('animationend',event => { if(event.target === curtain) dismiss(); });

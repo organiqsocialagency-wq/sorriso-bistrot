@@ -111,3 +111,12 @@ I quattro record A sostituiscono il puntamento precedente a `195.110.124.133`. I
 Dopo il cambio DNS verificare homepage, menù, media, redirect da `www` e dal precedente indirizzo GitHub Pages. Abilitare **Enforce HTTPS** appena GitHub ha emesso il certificato. La presenza del file CNAME da sola non conferma che il dominio sia operativo.
 
 Riferimenti: [GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), [gestione DNS Register.it](https://www.register.it/assistenza/cambiare-dns/).
+
+
+## SEO e dati strutturati
+
+`seo.py` genera un grafo JSON-LD per Restaurant, WebSite e WebPage usando i dati pubblicati sul sito. Nella pagina menù aggiunge Menu, MenuSection e MenuItem, con prezzi e varianti letti direttamente da `menu.json`, oltre al percorso Home → Menù. Non vengono aggiunte valutazioni aggregate, recensioni strutturate o attestazioni sanitarie. Gli identificatori del menù corrispondono ad ancore reali nell’HTML.
+
+Titoli, descrizioni e URL canonical sono distinti per home e menù. Il dominio principale è `https://sorrisobistrot.it/`; i parametri dei filtri restano canonicalizzati alla pagina menù. Sitemap e robots sono rigenerati insieme alle pagine. La verifica Search Console richiede l’accesso all’account Google del titolare e la pubblicazione del token effettivamente emesso da Google; non viene simulata da questi file.
+
+I loghi `*-web.webp`, il favicon PNG da 96 px e `maps-sorriso-v2.svg` sono versioni ottimizzate degli originali, conservati nel repository. La mappa utilizza lo stesso disegno e lo stesso logo, con un’immagine incorporata ridimensionata.
